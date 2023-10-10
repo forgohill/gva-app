@@ -1,0 +1,37 @@
+.slide-main {
+  margin: 10px;
+  padding: 0;
+
+  width: 200px;
+
+
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
+.slide-main__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.slide-main__image {
+  width: 100px;
+}
+
+.slide-main__subtitle {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+
+.slide-main__price {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}

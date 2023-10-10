@@ -1,0 +1,46 @@
+.header {
+  margin: 0;
+  padding: 0 10px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.header__logo {
+  width: 220px;
+}
+
+.header__logolink {
+  text-decoration: none;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header__item {
+  margin: 0;
+  padding: 0 15px;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link_type_active {
+  font-weight: 900;
+  text-decoration: underline;
+}
