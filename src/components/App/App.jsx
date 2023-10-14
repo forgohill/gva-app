@@ -1,4 +1,9 @@
-import React from 'react';
+import React, {
+  // useState,
+  // useEffect
+} from 'react';
+
+
 import {
   Routes,
   Route,
@@ -10,6 +15,7 @@ import {
 import './App.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main.jsx';
+import ApartPage from '../ApartPage/ApartPage';
 import Booking from '../Booking/Booking'
 import AboutUs from '../AboutUs/AboutUs'
 import Gallery from '../Gallery/Gallery'
@@ -41,6 +47,10 @@ const App = () => {
         <Route
           path='/contacts'
           element={<Contacts></Contacts>}
+        />
+        <Route
+          path='/apartment/*'
+          element={<ApartPage></ApartPage>}
         />
         <Route
           path='*'

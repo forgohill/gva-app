@@ -1,9 +1,9 @@
 import React from 'react';
 import SliderMain from '../SliderMain/SliderMain.jsx';
 
-import './Apartment.css';
+import './Apartments.css';
 
-const Apartment = () => {
+const Apartments = () => {
   return (
     <section className='apartment'>
       Apartment
@@ -12,4 +12,4 @@ const Apartment = () => {
   );
 }
 
-export default Apartment;
+export default Apartments;

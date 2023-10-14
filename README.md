@@ -71,7 +71,28 @@ Happy_moments_apartment
 Sky_river_apartment
 Central_street_apartment
 
-
+  {
+    pathname: 'green-apartment-city-view',
+    name: 'Green apartment city view',
+    amountRoom: '',
+    place: '',
+    floor: '',
+    technics: '',
+    communications: '',
+    comfort: '',
+    deposit: '',
+    amountQuest: '',
+    likeChildren: '',
+    likeAnimals: '',
+    likeSmoke: '',
+    likeParty: '',
+    accountingDocuments: '',
+    adress: '',
+    coordinates: '',
+    description: '',
+    homeInfo: '',
+    parking: '',
+  },
 
 
 
