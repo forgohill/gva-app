@@ -60,6 +60,7 @@ const App = () => {
           } />
       </Routes>
       <Footer></Footer>
+
       <Helmet>
         <title>Good Vibes Апартаменты</title>
 

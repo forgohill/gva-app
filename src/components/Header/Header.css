@@ -1,5 +1,5 @@
 .header {
-  margin: 0;
+  margin: 71px 0 40px;
   padding: 0 110px;
 
   width: 100%;
@@ -12,22 +12,24 @@
 }
 
 .header__logo {
-  width: 326px;
+  margin: 0;
+  padding: 0;
+
+  /* width: 326px; */
+  flex-basis: 0;
 
   color: #282A30;
 
-  font-feature-settings: 'clig' off, 'liga' off;
   font-family: Montserrat;
   font-size: 40px;
-  font-style: normal;
   font-weight: 900;
   line-height: 1.2;
-  /* 48px */
   letter-spacing: 1px;
-
 }
 
 .header__logolink {
+  display: flex;
+  color: #282A30;
   text-decoration: none;
 }
 
@@ -39,19 +41,32 @@
 
 @media screen and (max-width: 1024px) {
   .header {
+    margin: 53px 0 40px;
     padding: 0 78px;
   }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 930px) {
   .header {
+    margin: 36px 0 40px;
     padding: 0 11px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
+    margin: 45px 0 40px;
     padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header {
+    margin: 25px 0 40px;
+  }
+
+  .header__logo {
+    font-size: 24px;
   }
 }
 

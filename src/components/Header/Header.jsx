@@ -1,9 +1,8 @@
 import React from 'react';
-import {
-  Link,
-  // NavLink
-} from 'react-router-dom';
-import Navigation from '../Navigation/Navigation'
+import { Link } from 'react-router-dom';
+import Navigation from '../Navigation/Navigation';
+import BurgerMenu from '../BurgerMenu/BurgerMenu.jsx';
+
 
 import './Header.css';
 
@@ -16,6 +15,7 @@ const Header = () => {
           to="/">Good Vibes Апартаменты</Link>
       </h1>
       <Navigation></Navigation>
+      <BurgerMenu></BurgerMenu >
     </header>
   );
 }

@@ -1,40 +1,41 @@
-.apartment {
+.callback {
   padding: 0 110px;
-  background-color: rgba(94, 43, 189, 0.1);
+  background-color: rgba(106, 199, 24, 0.2);
 }
 
 @media screen and (max-width: 1280px) {
-  .apartment {
+  .callback {
     padding: 0 98px;
+
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .apartment {
+  .callback {
     padding: 0 78px;
   }
 }
 
 @media screen and (max-width: 834px) {
-  .apartment {
+  .callback {
     padding: 0 11px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .apartment {
+  .callback {
     padding: 0 10px;
   }
 }
 
 @media screen and (max-width: 430px) {
-  .apartment {
+  .callback {
     padding: 0 6px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .apartment {
+  .callback {
     padding: 0 5px;
   }
 }

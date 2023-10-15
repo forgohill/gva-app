@@ -33,7 +33,11 @@ const Footer = () => {
           <ul className="footer__list">
             Площадки
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link
+                to="https://www.avito.ru/user/7abe81bd51747f6d21ad77a2e15dd89a/profile/all/kvartiry?id=2465832266&src=item&page_from=from_item_card&iid=2465832266&sellerId=7abe81bd51747f6d21ad77a2e15dd89a"
+                target='_blank'
+                rel='noreferrer'
+                className="footer__item">
                 Авито
               </Link>
             </li>
