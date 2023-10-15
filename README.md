@@ -1,4 +1,30 @@
+# mediatype
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 834px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 430px) {}
+@media screen and (max-width: 320px) {}
 
+# fonts
+
+Montserrat
+Regular 400
+SemiBold 600
+Bold 700
+Black 900
+
+NunitoSans
+Regular 400
+
+Nunito
+Regular 400
+SemiBold 600
+
+Ubuntu
+Bold 700
+
+# naming
 
 Green apartment city view
 Marshmallow Studio

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./woff2/ubuntu-bold.woff2) format('woff2'),
+    url(./woff/ubuntu-bold.woff) format('woff');
+}

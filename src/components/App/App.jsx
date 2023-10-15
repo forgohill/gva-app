@@ -11,6 +11,7 @@ import {
   // useNavigate,
   // Navigate
 } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 import './App.css';
 import Header from '../Header/Header';
@@ -59,6 +60,10 @@ const App = () => {
           } />
       </Routes>
       <Footer></Footer>
+      <Helmet>
+        <title>Good Vibes Апартаменты</title>
+
+      </Helmet>
     </div>
   );
 }

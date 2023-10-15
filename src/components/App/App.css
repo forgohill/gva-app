@@ -1,7 +1,45 @@
 .page {
+  margin: 0 auto;
   height: 100vh;
+  max-width: 1440px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .page {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .page {
+    max-width: 834px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .page {
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
 }

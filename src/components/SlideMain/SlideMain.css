@@ -27,6 +27,16 @@
   padding: 0;
 
   text-align: center;
+
+  /* color: rgba(40, 42, 48, 0.40); */
+  color: black;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  /* 150% */
+
 }
 
 .slide-main__price {
@@ -34,4 +44,12 @@
   padding: 0;
 
   text-align: center;
+
+
+  color: var(--solo__color, #F7515C);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

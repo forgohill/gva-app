@@ -12,8 +12,11 @@ const Booking = () => {
     <main className='main'>
       <h1 >Booking</h1>
 
+
       <div id="rc-small-bookings-widget-root"></div>
       <Helmet>
+        <title>Забронировать | Good Vibes Апартаменты</title>
+
         <script type="text/javascript">RC_SMALL_BOOKINGS_WIDGET.init('18a682d5b6e8dd87c30d92cbf743d596');</script>
       </Helmet>
     </main >

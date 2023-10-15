@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  padding: 0 10px;
+  padding: 0 110px;
 
   width: 100%;
 
@@ -12,35 +12,57 @@
 }
 
 .header__logo {
-  width: 220px;
+  width: 326px;
+
+  color: #282A30;
+
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  /* 48px */
+  letter-spacing: 1px;
+
 }
 
 .header__logolink {
   text-decoration: none;
 }
 
-.header__navigation {
-  display: flex;
-  align-items: center;
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 0 98px;
+  }
 }
 
-.header__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0 78px;
+  }
 }
 
-.header__item {
-  margin: 0;
-  padding: 0 15px;
+@media screen and (max-width: 834px) {
+  .header {
+    padding: 0 11px;
+  }
 }
 
-.header__link {
-  text-decoration: none;
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
 }
 
-.header__link_type_active {
-  font-weight: 900;
-  text-decoration: underline;
+@media screen and (max-width: 430px) {
+  .header {
+    padding: 0 6px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 5px;
+  }
 }

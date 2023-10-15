@@ -1,0 +1,35 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navigation__item {
+  margin: 0;
+  padding: 0 15px;
+
+  color: #282A30;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Nunito Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  /* 22.8px */
+  letter-spacing: 1px;
+}
+
+.navigation__link {
+  text-decoration: none;
+}
+
+.navigation__link_type_active {
+  font-weight: 900;
+  text-decoration: underline;
+}
