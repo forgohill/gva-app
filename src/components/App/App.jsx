@@ -22,6 +22,8 @@ import AboutUs from '../AboutUs/AboutUs'
 import Gallery from '../Gallery/Gallery'
 import Contacts from '../Contacts/Contacts'
 import Footer from '../Footer/Footer.jsx';
+
+import VideoPresentation from '../VideoPresentation/VideoPresentation.jsx';
 import PageNotFound from '../PageNotFound/PageNotFound.jsx';
 
 const App = () => {
@@ -52,6 +54,11 @@ const App = () => {
         <Route
           path='/apartment/*'
           element={<ApartPage></ApartPage>}
+        />
+
+        <Route
+          path='/video-presentation'
+          element={<VideoPresentation></VideoPresentation>}
         />
         <Route
           path='*'

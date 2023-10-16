@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+
+
+
 import { apartmentsPage } from '../../utils/constantsSource.js';
 import Apart from '../Apart/Apart.jsx';
 import PageNotFoundApart from '../PageNotFoundApart/PageNotFoundApart.jsx';
@@ -39,7 +42,10 @@ const ApartPage = () => {
           insertApart={insertApart}
         ></Apart>
         : <PageNotFoundApart></PageNotFoundApart>}
+
     </main >
+
+
   );
 }
 

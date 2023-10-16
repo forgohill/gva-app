@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 630px) {
   .burger-menu {
-    margin: 10px 29px 0 0;
+    margin: 10px 19px 0 0;
     padding: 0;
 
     position: relative;
@@ -32,6 +32,29 @@
     background-color: transparent;
 
     z-index: 98;
+    cursor: pointer;
+
+  }
+
+  .burger-menu__touch-area {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 3px;
+    right: 4px;
+
+
+    background-color: white;
+    cursor: pointer;
+    z-index: 101;
+  }
+
+  .burger-menu__touch-area_type_active {
+    position: fixed;
+
+    top: 38px;
+    right: 39px;
   }
 
   .burger-menu__container {
@@ -44,6 +67,7 @@
     border-radius: 2px;
     background-color: #000;
     z-index: 101;
+    cursor: pointer;
   }
 
   .burger-menu__container::before {
@@ -109,6 +133,8 @@
 
     transition: .3s all;
     transform: translateX(-100%);
+    cursor: pointer;
+
   }
 
   .burger-menu__cover_type_active {

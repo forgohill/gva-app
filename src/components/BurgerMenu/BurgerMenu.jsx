@@ -18,6 +18,12 @@ const BurgerMenu = () => {
 
   return (
     <nav className='burger-menu'>
+
+      <div
+        onClick={handleMenu}
+        className={`burger-menu__touch-area ${isOnMenu && 'burger-menu__touch-area_type_active'}`}>
+      </div>
+
       <div
         onClick={handleMenu}
         className={`burger-menu__container ${isOnMenu && 'burger-menu__container_type_active'}`}>

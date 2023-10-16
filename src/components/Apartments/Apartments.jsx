@@ -5,7 +5,9 @@ import './Apartments.css';
 
 const Apartments = () => {
   return (
-    <section className='apartment'>
+    <section
+      className='apartment'
+      id='apartment'>
       <SliderMain></SliderMain>
     </section>
   );

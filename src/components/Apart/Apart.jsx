@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import './Apart.css';
+import './BookingForm.css';
+
 import YandexMap from '../YandexMap/YandexMap.jsx'
 const Apart = ({ insertApart }) => {
 
@@ -30,35 +32,9 @@ const Apart = ({ insertApart }) => {
     parking,
   } = insertApart;
 
-  const [isBook, setIsBook] = useState('');
-
-  useEffect(() => {
-
-    const timer = setTimeout(() => {
-      setIsBook(document.querySelector('.realty-calendar-booking-title'));
-      console.log('Произошла проверка на доступноть формы заявки для бронирования!');
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
-
-  useEffect(() => {
-    if (isBook === null) {
-      window.location.reload()
-    }
-    return () => {
-      // cleanup
-    };
-  }, [isBook]);
 
   return (
-    <div>
-
-      {/* <button
-        onClick={() => {
-          console.log(insertApart)
-        }}>insertApart</button> */}
-
+    <section className='apart'>
       <h2>{name}</h2>
       <h3>О квартире</h3>
       <ul>
@@ -94,8 +70,13 @@ const Apart = ({ insertApart }) => {
         <li>Парковка: <span>{parking}</span></li>
       </ul>
 
-      <div id={`realtycalendar-widget-container-${lot}`} className='realty-calendar-widget-wrap'></div>
-      <div id={`realtycalendar-booking-widget-container-${lot}`} className='realty-calendar-bookin-widget-wrap'></div>
+      <div
+        id={`realtycalendar-widget-container-${lot}`}
+        className='realty-calendar-widget-wrap'></div>
+      <div
+        className=''
+        id="rc-small-bookings-widget-root"></div>
+
       <Helmet>
         <title>{`${name} | Good Vibes Апартаменты`}</title>
         {/* <!-- скрип виджет календарь --> */}
@@ -104,14 +85,15 @@ const Apart = ({ insertApart }) => {
           async='true'
           src={`https://realtycalendar.ru/widgets/script?id=${lot}`}
           type='text/javascript'></script>
-        {/* <!-- форма бронирвоания --> */}
+        {/* <!-- модуль бронирвоания --> */}
         <script
-          async='true'
-          src={`https://realtycalendar.ru/widgets/booking?id=${lot}`}
-          type='text/javascript'></script>
+          type="text/javascript">RC_SMALL_BOOKINGS_WIDGET.init('18a682d5b6e8dd87c30d92cbf743d596');
+        </script>
+
       </Helmet>
 
-    </div>
+
+    </section>
 
   );
 }
