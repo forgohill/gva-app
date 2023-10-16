@@ -2,10 +2,9 @@
   position: relative;
   padding: 0 110px;
 
-  height: 767px;
+  min-height: 767px;
 
   background: url(../../img/background-element/presentation__kletka.svg) left -35px top 100px no-repeat, url(../../img/background-element/presentation__pattern.svg) top 100px right 39px no-repeat;
-
 
   overflow: hidden;
 }
@@ -172,7 +171,6 @@
 @media screen and (max-width: 1024px) {
   .presentation {
     padding: 0 78px;
-    /* height: 868px; */
   }
 
   .presentation__subtitle {
@@ -252,7 +250,6 @@
   }
 
   .presentation__background-image {
-    /* display: none; */
     position: absolute;
     top: 0;
     left: 0;
@@ -268,14 +265,10 @@
     top: 0;
     left: 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0.9));
-    /* background-color: rgba(255, 255, 255, .4); */
   }
 }
 
 @media screen and (max-width: 429px) {
-  .presentation {
-    /* padding: 0 6px; */
-  }
 
   .presentation__content {
     width: 300px;
@@ -289,7 +282,7 @@
 @media screen and (max-width: 320px) {
   .presentation {
     /* padding: 0 5px; */
-    height: 554px;
+    min-height: 554px;
   }
 
   .presentation__subtitle {
