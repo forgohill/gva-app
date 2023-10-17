@@ -178,7 +178,7 @@
   }
 
   .burger-menu__item {
-    padding: 10px 0 0 0;
+    padding: 30px 0 0 0;
     color: #282A30;
     font-family: Nunito Sans;
     font-size: 16px;
@@ -189,10 +189,11 @@
   }
 
   .burger-menu__link {
+    margin: 0;
+    padding: 0;
     display: block;
     color: #282A30;
     text-decoration: none;
-
   }
 
   .burger-menu__link_type_active {

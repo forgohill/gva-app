@@ -268,7 +268,7 @@
   }
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 430px) {
 
   .presentation__content {
     width: 300px;
@@ -277,7 +277,12 @@
   .presentation__title {
     width: 300px;
   }
+
+  .presentation__subtitle {
+    margin: 108px 0 0;
+  }
 }
+
 
 @media screen and (max-width: 320px) {
   .presentation {
