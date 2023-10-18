@@ -1,4 +1,5 @@
 .presentation {
+  width: 100%;
   position: relative;
   padding: 0 110px;
 
@@ -7,6 +8,7 @@
   background: url(../../img/background-element/presentation__kletka.svg) left -35px top 100px no-repeat, url(../../img/background-element/presentation__pattern.svg) top 100px right 39px no-repeat;
 
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .presentation__content {

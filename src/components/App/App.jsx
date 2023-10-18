@@ -1,13 +1,13 @@
 import React, {
   // useState,
-  // useEffect
+  useEffect
 } from 'react';
 
 
 import {
   Routes,
   Route,
-  // useLocation,
+  useLocation,
   // useNavigate,
   // Navigate
 } from 'react-router-dom';
@@ -27,6 +27,11 @@ import VideoPresentation from '../VideoPresentation/VideoPresentation.jsx';
 import PageNotFound from '../PageNotFound/PageNotFound.jsx';
 
 const App = () => {
+  const pathname = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className='page'>

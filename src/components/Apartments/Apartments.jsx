@@ -8,6 +8,11 @@ const Apartments = () => {
     <section
       className='apartment'
       id='apartment'>
+      <h2 className="apartment__title">
+        Актуальные цены&nbsp;и&nbsp;даты
+        <p className='advatage__space'></p>
+        <span className="apartment__accent">Апартаменты</span>
+      </h2>
       <SliderMain></SliderMain>
     </section>
   );

@@ -4,7 +4,7 @@ import './Callback.css';
 const Callback = () => {
   return (
     <section className='callback'>
-      Callback
+      {/* Callback */}
     </section>
   );
 }

@@ -1,10 +1,12 @@
 .about-us-main {
+  width: 100%;
   margin: 40px 0 0;
   padding: 0 110px;
 
   min-height: 810px;
 
   background: url(../../img/background-element/about-us-main__pattern.svg) top 504px left 203px no-repeat;
+  box-sizing: border-box;
 
 }
 
