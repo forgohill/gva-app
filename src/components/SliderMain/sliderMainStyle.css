@@ -22,8 +22,8 @@
   position: absolute;
   border-radius: 10px;
   background-color: white;
-  background-image: url(../../img/background-element/background__arrow-left.svg);
-  z-index: 10;
+  background-image: url(../../img/background-element/background-arrow-left.svg);
+  z-index: 11;
 }
 
 .slider-main .slick-prev:before {
@@ -43,27 +43,13 @@
 
   border-radius: 10px;
   background-color: white;
-  background-image: url(../../img/background-element/background__arrow-right.svg);
-  z-index: 10;
+  background-image: url(../../img/background-element/background-arrow-right.svg);
+  z-index: 11;
 }
 
 .slider-main .slick-next:before {
   content: none;
 }
-
-.slider-main .slick-next {
-  position: absolute;
-  top: -93px;
-  right: 13px;
-  left: auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
-  background-color: white;
-  background-image: url(http://localhost:3000/static/media/background__arrow-right.2d2a2c0a14bce9c0335d.svg);
-  z-index: 10;
-}
-
 
 .slider-main .slick-dots {
   position: absolute;

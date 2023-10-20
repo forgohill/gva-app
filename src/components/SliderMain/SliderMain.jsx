@@ -41,15 +41,15 @@ const SliderMain = () => {
   useEffect(() => {
     if (relationWidht <= 1280 && relationWidht > 600) {
       setIsBreakpoint(1280);
-      console.log(isBreakpoint);
+      // console.log(isBreakpoint);
     } else {
       if (relationWidht <= 936 && relationWidht > 612) {
         setIsBreakpoint(936);
-        console.log(isBreakpoint);
+        // console.log(isBreakpoint);
       } else {
         if (relationWidht <= 612 && relationWidht > 0) {
           setIsBreakpoint(612);
-          console.log(isBreakpoint);
+          // console.log(isBreakpoint);
         }
       }
     }
