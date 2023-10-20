@@ -21,7 +21,15 @@ import Booking from '../Booking/Booking'
 import AboutUs from '../AboutUs/AboutUs'
 import Gallery from '../Gallery/Gallery'
 import Contacts from '../Contacts/Contacts'
+import Sales from '../Sales/Sales.jsx';
+import Place from '../Place/Place.jsx';
+import Requisites from '../Requisites/Requisites.jsx';
+import Offer from '../Offer/Offer.jsx';
+import Recommendations from '../Recommendations/Recommendations.jsx';
+import Filming from '../Filming/Filming.jsx';
+
 import Footer from '../Footer/Footer.jsx';
+
 
 import VideoPresentation from '../VideoPresentation/VideoPresentation.jsx';
 import PageNotFound from '../PageNotFound/PageNotFound.jsx';
@@ -65,6 +73,42 @@ const App = () => {
           path='/video-presentation'
           element={<VideoPresentation></VideoPresentation>}
         />
+        <Route
+          path='/sales'
+          element={
+            <Sales></Sales>
+          } />
+        <Route
+          path='/place/place-ostrovok'
+          element={
+            <Place></Place>
+          } />
+        <Route
+          path='/place/place-sutochnoru'
+          element={
+            <Place></Place>
+          } />
+        <Route
+          path='/requisites'
+          element={
+            <Requisites></Requisites>
+          } />
+        <Route
+          path='/offer'
+          element={
+            <Offer></Offer>
+          } />
+        <Route
+          path='/recommendations'
+          element={
+            <Recommendations></Recommendations>
+          } />
+        <Route
+          path='/filming'
+          element={
+            <Filming></Filming>
+          } />
+
         <Route
           path='*'
           element={

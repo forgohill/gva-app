@@ -14,17 +14,23 @@ const Footer = () => {
               <h4 className="footer__title">Скидки</h4>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/sales"
+                className="footer__link">
                 Посмотреть предложения!
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
-                Фото
+              <Link
+                to="/filming"
+                className="footer__link">
+                Фотосъемка
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/filming"
+                className="footer__link">
                 Видеосъемка
               </Link>
             </li>
@@ -47,15 +53,20 @@ const Footer = () => {
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/place/place-ostrovok"
+                className="footer__link">
                 Островок
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/place/place-sutochnoru"
+                className="footer__link">
                 Суточно.ру
               </Link>
             </li>
+
           </ul>
         </li>
 
@@ -65,17 +76,21 @@ const Footer = () => {
               <h4 className="footer__title">Компания</h4>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/requisites"
+                className="footer__link">
                 Реквизиты
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="/offer"
+                className="footer__link">
                 Оферта
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link to="/recommendations" className="footer__link">
                 Рекомендации
               </Link>
             </li>
@@ -91,12 +106,13 @@ const Footer = () => {
             </li>
 
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link to="mailto:frozzehill@gmail.com" className="footer__link">
                 frozzehill@gmail.com
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__link">
+              <Link
+                to="tel:+79625141493" className="footer__link">
                 +7(962)514 14 93
               </Link>
             </li>
