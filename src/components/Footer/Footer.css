@@ -1,7 +1,6 @@
 .footer {
-  margin: 0;
-  padding: 0 10px;
-  /* height: 200px; */
+  margin: 40px 0 0;
+  padding: 0 110px;
   width: 100%;
 
   display: flex;
@@ -9,31 +8,140 @@
   align-items: center;
   flex-shrink: 0;
 
-  /* background-color: tan; */
-
   box-sizing: border-box;
 }
 
-.footer {}
-
 .footer__navigation {
+  margin: 0;
+  padding: 100px 0 45px;
+  width: 100%;
+
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+
+  border-top: 1px solid #282A30;
 }
 
 .footer__wrapper {
   margin: 0;
   padding: 0;
+
+  max-width: 215px;
+
   list-style: none;
 }
 
+
 .footer__list {
   margin: 0;
-  padding: 25px 20px 0;
+  padding: 0;
   list-style: none;
 }
 
 .footer__item {
-  margin: 5px 0;
+  margin: 0 0 27px;
   padding: 0;
+
+}
+
+.footer__item:first-child {
+  margin: 0 0 51px;
+}
+
+.footer__item:last-child {
+  margin: 0;
+}
+
+.footer__title {
+  margin: 0;
+  padding: 0;
+
+
+
+  color: #282A30;
+  font-family: Nunito;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+
+  text-decoration: none;
+}
+
+.footer__link {
+  margin: 0;
+  padding: 0;
+  color: rgba(40, 42, 48, 0.80);
+
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.80;
+
+  letter-spacing: 1px;
+
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    padding: 0 98px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 0 78px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .footer {
+    padding: 0 107px;
+  }
+
+  .footer__navigation {
+    padding: 50px 0 45px;
+
+    max-width: 570px;
+    row-gap: 25px;
+    column-gap: 100px;
+  }
+
+  .footer__list {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 98px;
+  }
+
+  .footer__navigation {
+    row-gap: 56px;
+    column-gap: 50px;
+  }
+
+  .footer__item:first-child {
+    margin: 0 0 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 0 64px;
+  }
+
+  .footer__navigation {
+    padding: 40px 0 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 0 35px;
+  }
 }

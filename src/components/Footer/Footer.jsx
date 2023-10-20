@@ -8,20 +8,23 @@ const Footer = () => {
       <ul className="footer__navigation">
 
         <li className="footer__wrapper">
+
           <ul className="footer__list">
-            Скидки
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <h4 className="footer__title">Скидки</h4>
+            </li>
+            <li className="footer__item">
+              <Link to="#" className="footer__link">
                 Посмотреть предложения!
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Фото
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Видеосъемка
               </Link>
             </li>
@@ -30,23 +33,26 @@ const Footer = () => {
 
         <li className="footer__wrapper">
           <ul className="footer__list">
-            Площадки
+
+            <li className="footer__item">
+              <h4 className="footer__title">Площадки</h4>
+            </li>
             <li className="footer__item">
               <Link
                 to="https://www.avito.ru/user/7abe81bd51747f6d21ad77a2e15dd89a/profile/all/kvartiry?id=2465832266&src=item&page_from=from_item_card&iid=2465832266&sellerId=7abe81bd51747f6d21ad77a2e15dd89a"
                 target='_blank'
                 rel='noreferrer'
-                className="footer__item">
+                className="footer__link">
                 Авито
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Островок
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Суточно.ру
               </Link>
             </li>
@@ -55,19 +61,21 @@ const Footer = () => {
 
         <li className="footer__wrapper">
           <ul className="footer__list">
-            Компания
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <h4 className="footer__title">Компания</h4>
+            </li>
+            <li className="footer__item">
+              <Link to="#" className="footer__link">
                 Реквизиты
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Оферта
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Рекомендации
               </Link>
             </li>
@@ -76,19 +84,24 @@ const Footer = () => {
 
         <li className="footer__wrapper">
           <ul className="footer__list">
-            Контакты
+
+
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <h4 className="footer__title">Контакты</h4>
+            </li>
+
+            <li className="footer__item">
+              <Link to="#" className="footer__link">
                 frozzehill@gmail.com
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 +7(962)514 14 93
               </Link>
             </li>
             <li className="footer__item">
-              <Link to="#" className="footer__item">
+              <Link to="#" className="footer__link">
                 Нижний Новгород 603116 А/Я ~
               </Link>
             </li>
