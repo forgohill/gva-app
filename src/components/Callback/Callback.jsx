@@ -1,7 +1,13 @@
 import React from 'react';
 import './Callback.css';
 
-const Callback = () => {
+const Callback = ({ onOpenPopupCallback }) => {
+
+  const handleClickButton = () => {
+    onOpenPopupCallback();
+  }
+
+
   return (
     <section className='callback'>
 
@@ -11,9 +17,7 @@ const Callback = () => {
           <p className='callback__space'></p>
           звонок</h1>
         <button
-          onClick={() => {
-            console.log('onClick__Заказать')
-          }}
+          onClick={handleClickButton}
           className='callback__button'>
           Заказать
         </button>

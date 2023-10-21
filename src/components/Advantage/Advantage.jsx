@@ -15,7 +15,7 @@ const Advantage = () => {
           <Link href="" className="advantage__link advantage__link_number_one">
             <span className="advantage__number">1</span>
             <div className="advantage__wrapper">
-              <h3 className="advantage__subtitle">Безконтактное заселение</h3>
+              <h3 className="advantage__subtitle">Бесконтактное заселение</h3>
               <p className="advantage__pharagraph">Provide the best service and very fast response.</p>
             </div>
           </Link>

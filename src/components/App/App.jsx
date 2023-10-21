@@ -1,5 +1,5 @@
 import React, {
-  // useState,
+  useState,
   useEffect
 } from 'react';
 
@@ -37,6 +37,22 @@ import PageNotFound from '../PageNotFound/PageNotFound.jsx';
 const App = () => {
   const pathname = useLocation();
 
+  const [isPopupCallback, setIsPopupCallback] = useState(false);
+
+
+
+
+  const handleOpenPopupCallback = () => {
+    setIsPopupCallback(!isPopupCallback);
+    console.log('handleOpenPopupCallback');
+    console.log(isPopupCallback);
+  }
+
+  const closePopup = () => {
+    setIsPopupCallback(false);
+  }
+
+  // при смене пути прокручивает наверх
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -47,7 +63,11 @@ const App = () => {
       <Routes>
         <Route
           path='/'
-          element={<Main></Main>} />
+          element={<Main
+            onOpenPopupCallback={handleOpenPopupCallback}
+            onClosePopup={closePopup}
+            onPopupCallback={isPopupCallback}
+          />} />
         <Route
           path='/booking'
           element={<Booking></Booking>}
@@ -117,9 +137,10 @@ const App = () => {
       </Routes>
       <Footer></Footer>
 
+
+
       <Helmet>
         <title>Good Vibes Апартаменты</title>
-
       </Helmet>
     </div>
   );

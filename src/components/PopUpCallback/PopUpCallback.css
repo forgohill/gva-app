@@ -1,0 +1,149 @@
+.popup-callback {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 101;
+
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: rgba(0, 0, 0, .2); */
+}
+
+.popup-callback_active {
+  display: flex;
+}
+
+.popup-callback__wrapper {
+  position: relative;
+
+  width: 300px;
+  /* height: 1; */
+
+  margin: 0;
+  padding: 25px 30px;
+
+  border-radius: 15px;
+  background-color: #fff;
+
+  z-index: 102;
+}
+
+.popup-callback__title {
+  margin: 0;
+  padding: 0;
+
+  color: #282A30;
+  font-family: Nunito;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.popup-callback__pharagraph {
+  margin: 25px 0 0;
+  padding: 0;
+  color: rgba(40, 42, 48, 0.90);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.popup-callback__link {
+  margin: 15px 0 0;
+  padding: 0;
+  display: block;
+
+  color: rgba(40, 42, 48, 0.90);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.8;
+  letter-spacing: 1px;
+
+  text-decoration: none;
+}
+
+.popup-callback__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.popup-callback__close-button {
+  position: absolute;
+  top: 35px;
+  right: 25px;
+
+
+  margin: 0;
+  padding: 0;
+
+  width: 25px;
+  height: 2px;
+
+  /* background-color: black; */
+  background-color: transparent;
+
+  border: 0;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.popup-callback__close-button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform: rotate(45deg);
+}
+
+.popup-callback__close-button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform: rotate(-45deg);
+}
+
+.popup-callback__background-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, .3);
+  cursor: pointer;
+
+  z-index: 101;
+}
+
+
+@media screen and (max-width: 430px) {
+  .popup-callback__wrapper {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {}
