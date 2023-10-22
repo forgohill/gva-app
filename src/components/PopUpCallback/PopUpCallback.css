@@ -142,7 +142,8 @@
 
 @media screen and (max-width: 430px) {
   .popup-callback__wrapper {
-    width: 200px;
+    width: 240px;
+    padding: 55px 30px;
   }
 }
 

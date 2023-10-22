@@ -14,6 +14,8 @@ import {
 import { Helmet } from 'react-helmet-async';
 
 import './App.css';
+import './BookingForm.css';
+
 import Header from '../Header/Header';
 import Main from '../Main/Main.jsx';
 import ApartPage from '../ApartPage/ApartPage';
@@ -70,7 +72,7 @@ const App = () => {
           />} />
         <Route
           path='/booking'
-          element={<Booking></Booking>}
+          element={<Booking />}
         />
         <Route
           path='/about-us'

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import './Apart.css';
-import './BookingForm.css';
+// import './BookingForm.css';
 
 import YandexMap from '../YandexMap/YandexMap.jsx'
 const Apart = ({ insertApart }) => {

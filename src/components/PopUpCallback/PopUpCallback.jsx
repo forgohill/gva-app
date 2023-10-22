@@ -19,7 +19,7 @@ const PopUpCallback = ({ onPopupCallback, onClosePopup }) => {
           target='_blank'
           rel='noreferrer'
           className='popup-callback__link'
-          to='https://wa.me/79625141493'
+          to='https://wa.me/message/VRG2MXM22RWQG1'
           onClick={handleClosePopup}
 
         >

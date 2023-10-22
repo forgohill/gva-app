@@ -1,0 +1,79 @@
+#rc-small-bookings-widget-root {
+  margin: 0;
+  padding: 10px 20px 10px;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  background-color: #F7515C;
+}
+
+.rc-f34235 {
+  margin: 0;
+  padding: 0;
+
+  width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rc-form-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.rc-search_form {
+  background-color: #F7515C;
+}
+
+.rc-search_form__dates_wrapper {
+  background-color: #F7515C;
+  border-radius: 10px;
+}
+
+
+.rc-f34235 .rc-search_form {
+  background-color: #F7515C;
+}
+
+/* .rc-form-group {} */
+/* .search_form__item {} */
+/* .rc-search_form__item-first {} */
+/* .rc-input-group {} */
+/* .rc-date {} */
+/* .rc-search_form__item__date {} */
+/* .rc-datepicker-begin-date {} */
+/* .rc-form-control {} */
+/* .rc-input-group-addon {} */
+/* .rc-glyphicon {} */
+/* .rc-glyphicon-th {} */
+/* .rc-search_form__item {} */
+/* .rc-datepicker-end-date {} */
+/* .rc-search_form__item__guests__control {} */
+
+.rc-search_form__btn__wrapper {
+  background-color: #F7515C;
+  border-radius: 10px;
+}
+
+/* .rc-btn {} */
+/* .rc-btn-lg {} */
+/* .rc-search_form__search_btn {} */
+/* .rc-fa {} */
+/* .rc-fa-search {} */
+/* @media screen and (max-width: 1280px) {} */
+/* @media screen and (max-width: 1024px) {} */
+/* @media screen and (max-width: 834px) {} */
+
+@media screen and (max-width: 768px) {
+  #rc-small-bookings-widget-root {
+    /* margin: 0; */
+    padding: 20px 20px 30px;
+    /* display: flex; */
+    /* background-color: #F7515C; */
+  }
+}
+
+/* @media screen and (max-width: 430px) {} */
+/* @media screen and (max-width: 320px) {} */
