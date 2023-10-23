@@ -84,7 +84,7 @@ const App = () => {
         />
         <Route
           path='/contacts'
-          element={<Contacts></Contacts>}
+          element={<Contacts />}
         />
         <Route
           path='/apartment/*'
@@ -137,7 +137,7 @@ const App = () => {
             <PageNotFound></PageNotFound>
           } />
       </Routes>
-      <Footer></Footer>
+      <Footer />
 
 
 

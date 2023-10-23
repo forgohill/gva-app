@@ -33,7 +33,6 @@
 
     z-index: 98;
     cursor: pointer;
-
   }
 
   .burger-menu__touch-area {
@@ -134,7 +133,6 @@
     transition: .3s all;
     transform: translateX(-100%);
     cursor: pointer;
-
   }
 
   .burger-menu__cover_type_active {

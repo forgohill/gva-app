@@ -11,18 +11,17 @@ import PopUpCallback from '../PopUpCallback/PopUpCallback.jsx';
 const Main = ({ onOpenPopupCallback, onClosePopup, onPopupCallback }) => {
   return (
     <main className='main'>
-      <Presentation></Presentation>
-      <AboutUsMain></AboutUsMain>
-      <Advantage></Advantage>
-      <Apartments></Apartments>
+      <Presentation />
+      <AboutUsMain />
+      <Advantage />
+      <Apartments />
       <Callback
         onOpenPopupCallback={onOpenPopupCallback}
-      ></Callback>
+      />
       <PopUpCallback
         onPopupCallback={onPopupCallback}
         onClosePopup={onClosePopup}
       />
-
     </main >
   );
 }

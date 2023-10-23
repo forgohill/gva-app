@@ -99,8 +99,6 @@ const Footer = () => {
 
         <li className="footer__wrapper">
           <ul className="footer__list">
-
-
             <li className="footer__item">
               <h4 className="footer__title">Контакты</h4>
             </li>

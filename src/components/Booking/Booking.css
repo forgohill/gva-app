@@ -44,7 +44,7 @@
   /* 139.063% */
 }
 
-.booking-module__ptharagraph {
+.booking-module__pharagraph {
   margin: 25px 0 30px;
   padding: 0;
   color: rgba(40, 42, 48, 0.90);
@@ -112,7 +112,7 @@
   transition: 0.3s all;
 }
 
-.booking-module__ptharagraph_type_accent {
+.booking-module__pharagraph_type_accent {
   width: fit-content;
   padding: 7px 15px 5px;
   border-radius: 5px;
@@ -120,7 +120,7 @@
   background-color: rgba(247, 81, 92, .3);
 }
 
-.booking-module__ptharagraph_type_center {
+.booking-module__pharagraph_type_center {
   margin: 70px 0 40px;
   font-size: 16px;
   text-align: center;
@@ -128,7 +128,7 @@
   opacity: 0.7;
 }
 
-.booking-module__ptharagraph_type_center:hover {
+.booking-module__pharagraph_type_center:hover {
   opacity: 1;
 }
 
@@ -168,12 +168,24 @@
     letter-spacing: 2px;
   }
 
-  .booking-module__ptharagraph {
+  .booking-module__pharagraph {
     font-size: 20px;
+  }
+
+  .booking-module__pharagraph_type_center {
+    margin: 70px 0 40px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s all;
+    opacity: 0.7;
   }
 
   .booking-module__inline-link {
     font-size: 20px;
+  }
+
+  .booking-module__inline-link_type_center {
+    font-size: 16px;
   }
 }
 

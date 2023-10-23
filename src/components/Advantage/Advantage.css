@@ -284,8 +284,7 @@
   }
 }
 
-
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 580px) {
   .advantage {
     margin: 5px 0 0;
   }

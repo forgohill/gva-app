@@ -29,7 +29,7 @@ const PopUpCallback = ({ onPopupCallback, onClosePopup }) => {
           target='_blank'
           rel='noreferrer'
           className='popup-callback__link'
-          to='https://t.me/+79625141493'
+          to='https://t.me/belova_rentier_nn'
           onClick={handleClosePopup}
 
         >

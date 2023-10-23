@@ -7,33 +7,33 @@ const Booking = () => {
     <main className='main'>
       <section className='booking-module'>
         <h2 className='booking-module__title'>Модуль <span className="booking-module__accent">бронирования</span></h2>
-        <p className='booking-module__ptharagraph'>
+        <p className='booking-module__pharagraph'>
           На&nbsp;нашем сайте мы&nbsp;используем модуль бронирования через сервис <HashLink to="#booking-module__booking-form"
 
             className="booking-module__inline-link">RealtyCalendar</HashLink>.</p>
-        <p className='booking-module__ptharagraph'>
+        <p className='booking-module__pharagraph'>
           Данный модуль позволяет пользователям удобно и&nbsp;быстро забронировать наши квартиры для проживания.
         </p>
-        <p className='booking-module__ptharagraph'>Выберите интересующие даты, и количество гостей. Модуль предложит вам вариант жилья, узнать информацию о&nbsp;свободных датах и&nbsp;стоимости аренды, а&nbsp;также оформить бронь.
+        <p className='booking-module__pharagraph'>Выберите интересующие даты, и количество гостей. Модуль предложит вам вариант жилья, узнать информацию о&nbsp;свободных датах и&nbsp;стоимости аренды, а&nbsp;также оформить бронь.
         </p>
-        <p className='booking-module__ptharagraph'>
+        <p className='booking-module__pharagraph'>
           Мы&nbsp;стремимся к&nbsp;тому, чтобы процесс бронирования был максимально простым и&nbsp;удобным для наших клиентов.
         </p>
-        <p className='booking-module__ptharagraph booking-module__ptharagraph_type_accent'
+        <p className='booking-module__pharagraph booking-module__pharagraph_type_accent'
           id='booking-module__booking-form'
         >Внимание!</p>
-        <p className='booking-module__ptharagraph'>
+        <p className='booking-module__pharagraph'>
           Перед бронированием обязательно ознакомьтесь с основными правилами бронирования и проживания!</p>
         <div className="booking-module__booking-form" >
           <div id="rc-small-bookings-widget-root"></div>
         </div>
         <div className='booking-module__background-rectangle'></div>
-        <p className='booking-module__ptharagraph booking-module__ptharagraph_type_center'>
+        <p className='booking-module__pharagraph booking-module__pharagraph_type_center'>
           Информация о сервисе <a href="https://new.realtycalendar.ru/products/booking-module"
             target='_blank'
             rel='noreferrer'
             alt='asd'
-            className="booking-module__inline-link booking-module__ptharagraph_type_center">RealtyCalendar</a></p>
+            className="booking-module__inline-link booking-module__inline-link_type_center">RealtyCalendar</a></p>
       </section>
 
       <Helmet>

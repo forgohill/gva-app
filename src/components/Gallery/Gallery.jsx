@@ -1,36 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import Apartments from '../Apartments/Apartments.jsx';
 import './Gallery.css';
 
 const Gallery = () => {
-  // const [isBook, setIsBook] = useState('');
-
-  // useEffect(() => {
-
-  //   const timer = setTimeout(() => {
-  //     setIsBook(document.querySelector('.realty-calendar-booking-title'));
-  //     console.log('Произошла проверка на доступноть формы заявки для бронирования!');
-  //   }, 3000);
-  //   return () => clearTimeout(timer);
-  // }, []);
-
-
-  // useEffect(() => {
-  //   if (isBook === null) {
-  //     window.location.reload()
-  //   }
-  //   return () => {
-  //     // cleanup
-  //   };
-  // }, [isBook]);
-
   return (
     <main className='main'>
-      Gallery
-
+      <Apartments />
       <Helmet>
         <title>Галерея | Good Vibes Апартаменты</title>
       </Helmet>
+      <div className='booking-module__background-rectangle'></div>
     </main>
   );
 }
