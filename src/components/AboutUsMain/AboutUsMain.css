@@ -274,7 +274,6 @@
   .about-us-main {
     padding: 0 10px;
     min-height: 818px;
-
   }
 
   .about-us-main__title {
@@ -341,7 +340,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .about-us-main {
     margin: 30px auto 0;
     min-height: 684px;
@@ -383,7 +382,9 @@
 
   .about-us-main__image {
     height: 670px;
+    left: -10px;
   }
+
 
   .about-us-main__link {
     margin: 73px 0 0;

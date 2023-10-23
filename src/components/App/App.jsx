@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div className='page'>
-      <Header></Header>
+      <Header />
       <Routes>
         <Route
           path='/'
@@ -76,7 +76,7 @@ const App = () => {
         />
         <Route
           path='/about-us'
-          element={<AboutUs></AboutUs>}
+          element={<AboutUs />}
         />
         <Route
           path='/gallery'

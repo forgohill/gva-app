@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link'
 import './Booking.css';
-// import './BookingForm.css';
 import { Helmet } from 'react-helmet-async'
 const Booking = () => {
   return (
@@ -20,11 +19,12 @@ const Booking = () => {
         <p className='booking-module__ptharagraph'>
           Мы&nbsp;стремимся к&nbsp;тому, чтобы процесс бронирования был максимально простым и&nbsp;удобным для наших клиентов.
         </p>
-        <p className='booking-module__ptharagraph booking-module__ptharagraph_type_accent'>Внимание!</p>
+        <p className='booking-module__ptharagraph booking-module__ptharagraph_type_accent'
+          id='booking-module__booking-form'
+        >Внимание!</p>
         <p className='booking-module__ptharagraph'>
           Перед бронированием обязательно ознакомьтесь с основными правилами бронирования и проживания!</p>
-
-        <div className="booking-module__booking-form" id='booking-module__booking-form'>
+        <div className="booking-module__booking-form" >
           <div id="rc-small-bookings-widget-root"></div>
         </div>
         <div className='booking-module__background-rectangle'></div>
