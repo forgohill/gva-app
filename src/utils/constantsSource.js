@@ -35,7 +35,7 @@ export const apartmentsPage = [
     pathname: 'green-apartment-city-view',
     name: 'Green apartment city view',
     amountRoom: 'студия',
-    place: '23 m²',
+    place: '23 м²',
     floor: '14 из 14',
     balcony: 'нет',
     technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
@@ -49,6 +49,9 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Героя Жидкова, 2',
+    shortAdress: 'ул. Героя Жидкова, 2, Нижний Новгород',
+    shortInfo: 'Квартира-студия, 23 м², 14/14 эт.',
+
     coordinatesX: 56.301713,
     coordinatesY: 43.982603,
     description: `    
@@ -116,7 +119,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, Московское ш., 167к3',
-
+    shortAdress: 'Московское шоссе, 167к3, Нижний Новгород',
+    shortInfo: 'Квартира-студия, 21 м², 2/14 эт.',
     coordinatesX: 56.315775,
     coordinatesY: 43.890831,
     description: `
@@ -184,6 +188,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25',
+    shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
+    shortInfo: '1-к. квартира, 42 м², 3/25 эт.',
     coordinatesX: 56.318266,
     coordinatesY: 44.039754,
     description: `
@@ -255,6 +261,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Максима Горького, 24',
+    shortAdress: 'ул. Максима Горького, 24, Нижний Новгород',
+    shortInfo: '1-к. квартира, 40 м², 3/11 эт.',
     coordinatesX: 56.310662,
     coordinatesY: 43.980061,
     description: `
@@ -322,6 +330,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Максима Горького, 45',
+    shortAdress: 'ул. Максима Горького, 45, Нижний Новгород',
+    shortInfo: '2-к. квартира, 61 м², 3/6 эт.',
     coordinatesX: 56.312345,
     coordinatesY: 43.983672,
     description: `
@@ -398,6 +408,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Максима Горького, 23А',
+    shortAdress: ' ул. Максима Горького, 23А, Нижний Новгород',
+    shortInfo: 'Квартира-студия, 26 м², 7/19 эт.',
     coordinatesX: 56.311741,
     coordinatesY: 43.977887,
     description: `
@@ -466,6 +478,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Генкиной, 25А',
+    shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
+    shortInfo: '1-к. квартира, 45 м², 4/14 эт.',
     coordinatesX: 56.310632,
     coordinatesY: 44.011098,
     description: `
@@ -534,6 +548,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Родионова, 202/1',
+    shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
+    shortInfo: '1-к. квартира, 42 м², 11/17 эт.',
     coordinatesX: 56.299451,
     coordinatesY: 44.088389,
     description: `
@@ -604,8 +620,9 @@ export const apartmentsPage = [
     likeSmoke: 'нет',
     likeParty: 'нет',
     accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, Большая Покровская ул., 18А',
-
+    adress: 'Нижегородская область, Нижний Новгород, ул Большая Покровская, 18А',
+    shortAdress: 'ул Большая Покровская, 18А, Нижний Новгород',
+    shortInfo: '1-к. квартира, 42 м², 3/6 эт.',
     coordinatesX: 56.322779,
     coordinatesY: 44.002788,
     description: `
@@ -679,6 +696,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25к1',
+    shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
+    shortInfo: '1-к. квартира, 38 м², 6/25 эт.',
     coordinatesX: 56.317537,
     coordinatesY: 44.039314,
     description: `
@@ -762,6 +781,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Семашко, 28',
+    shortAdress: 'ул. Семашко, 28, Нижний Новгород',
+    shortInfo: '1-к. квартира, 42 м², 17/19 эт.',
     coordinatesX: 56.321032,
     coordinatesY: 44.017934,
     description: `
@@ -848,6 +869,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'да',
     adress: 'Нижегородская область, Нижний Новгород, ул. Максима Горького, 23А',
+    shortAdress: 'ул. Максима Горького, 23А, Нижний Новгород',
+    shortInfo: 'Квартира-студия, 32 м², 17/19 эт.',
     coordinatesX: 56.311741,
     coordinatesY: 43.977887,
     description: `
@@ -915,6 +938,8 @@ export const apartmentsPage = [
     likeParty: 'нет',
     accountingDocuments: 'ды',
     adress: 'Нижегородская область, Нижний Новгород, ул. Тимирязева, 7к5',
+    shortAdress: 'ул. Тимирязева, 7к5, Нижний Новгород',
+    shortInfo: '1-к. квартира, 41 м², 11/17 эт.',
     coordinatesX: 56.305299,
     coordinatesY: 43.999860,
     description: `

@@ -1,0 +1,81 @@
+.apart__wrapper-right #rc-small-bookings-widget-root {
+
+  display: none;
+  margin: 0;
+  padding: 10px 20px 10px;
+  display: flex;
+  width: 320px;
+  justify-content: center;
+  background-color: #F7515C;
+}
+
+.apart__wrapper-right .rc-f34235 {
+  margin: 0;
+  padding: 0;
+
+  width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.apart__wrapper-right .rc-form-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.apart__wrapper-right .rc-search_form {
+  background-color: #F7515C;
+}
+
+.rc-search_form__dates_wrapper {
+  background-color: #F7515C;
+  border-radius: 10px;
+}
+
+
+.apart__wrapper-right .rc-f34235 .rc-search_form {
+  background-color: #F7515C;
+}
+
+/* .apart__wrapper-right .rc-form-group {} */
+/* .apart__wrapper-right .search_form__item {} */
+/* .apart__wrapper-right .rc-search_form__item-first {} */
+/* .apart__wrapper-right .rc-input-group {} */
+/* .apart__wrapper-right .rc-date {} */
+/* .apart__wrapper-right .rc-search_form__item__date {} */
+/* .apart__wrapper-right .rc-datepicker-begin-date {} */
+/* .apart__wrapper-right .rc-form-control {} */
+/* .apart__wrapper-right .rc-input-group-addon {} */
+/* .apart__wrapper-right .rc-glyphicon {} */
+/* .apart__wrapper-right .rc-glyphicon-th {} */
+/* .apart__wrapper-right .rc-search_form__item {} */
+/* .apart__wrapper-right .rc-datepicker-end-date {} */
+/* .apart__wrapper-right .rc-search_form__item__guests__control {} */
+
+.apart__wrapper-right .rc-search_form__btn__wrapper {
+  background-color: #F7515C;
+  border-radius: 10px;
+}
+
+/* .apart__wrapper-right .rc-btn {} */
+/* .apart__wrapper-right .rc-btn-lg {} */
+/* .apart__wrapper-right .rc-search_form__search_btn {} */
+/* .apart__wrapper-right .rc-fa {} */
+/* .apart__wrapper-right .rc-fa-search {} */
+/* @media screen and (max-width: 1280px) {} */
+/* @media screen and (max-width: 1024px) {} */
+/* @media screen and (max-width: 834px) {} */
+
+@media screen and (max-width: 768px) {
+  .apart__wrapper-right #rc-small-bookings-widget-root {
+    /* margin: 0; */
+    padding: 20px 0px 30px;
+    /* display: flex; */
+    /* background-color: #F7515C; */
+  }
+}
+
+/* @media screen and (max-width: 430px) {} */
+/* @media screen and (max-width: 320px) {} */

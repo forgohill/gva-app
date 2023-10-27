@@ -15,6 +15,9 @@ import { Helmet } from 'react-helmet-async';
 
 import './App.css';
 import './BookingForm.css';
+import './ApartPageBookingForm.css';
+import './RealtyCalendar.css';
+
 
 import Header from '../Header/Header';
 import Main from '../Main/Main.jsx';

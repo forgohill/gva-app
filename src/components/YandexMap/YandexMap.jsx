@@ -11,13 +11,15 @@ const YandexMap = ({ coordinatesX, coordinatesY }) => {
   return (
     <div>
       <YMaps>
-        <button
+
+        {/* <button
           onClick={() => {
             console.log(coordinatesX);
             console.log(coordinatesY);
             // console.log(center);
           }}
-        >coordinates</button>
+        >coordinates</button> */}
+
         {/* <div>My awesome application with maps!</div> */}
         <Map
           defaultState={
@@ -25,7 +27,10 @@ const YandexMap = ({ coordinatesX, coordinatesY }) => {
               center: [coordinatesX, coordinatesY],
               zoom: 16,
               controls: ["zoomControl", "fullscreenControl"],
+
             }}
+          width='500px'
+          height='240px'
           modules={["control.ZoomControl", "control.FullscreenControl"]}
         >
           {/** Props <Button/>
@@ -37,6 +42,7 @@ const YandexMap = ({ coordinatesX, coordinatesY }) => {
            * defaultState: Uncontrolled control state
            * instanceRef: Object instance
            */}
+          {/* 
           <Button
             onClick={() => {
               console.log('Забронирвоать!');
@@ -45,6 +51,7 @@ const YandexMap = ({ coordinatesX, coordinatesY }) => {
             data={{ content: "Забронировать!" }}
             defaultState={{ selected: true }}
           />
+ */}
           <Placemark
             modules={["geoObject.addon.balloon"]}
             defaultGeometry={[coordinatesX, coordinatesY]}

@@ -1,0 +1,107 @@
+/* #realtycalendar-widget-container-122233 {} */
+
+.apart__wrapper-right .realty-calendar-widget-wrap {}
+
+.apart__wrapper-right .realty-calendar-widget {}
+
+.apart__wrapper-right .header {
+  width: 100%;
+
+  margin: 10px 0 15px;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.apart__wrapper-right .header tbody {
+  width: 100%;
+}
+
+.apart__wrapper-right .header tbody tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.apart__wrapper-right .left-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .header .left-arrow a {
+
+  display: block;
+  color: rgba(40, 42, 48, 0.9);
+
+  text-decoration: none;
+}
+
+.apart__wrapper-right .month h4 {
+  margin: 0;
+  padding: 0;
+
+  color: rgba(40, 42, 48, 0.9);
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.apart__wrapper-right .right-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .header .right-arrow a {
+  display: block;
+  color: rgba(40, 42, 48, 0.9);
+
+  text-decoration: none;
+}
+
+.apart__wrapper-right .next_month {}
+
+.apart__wrapper-right .calendar-widget {}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .calendar-widget td,
+.apart__wrapper-right .realty-calendar-widget-wrap .calendar-widget th {
+  border: 1px solid rgba(40, 42, 48, .5);
+  padding: 0;
+
+  color: rgba(40, 42, 48, 1);
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+
+}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .calendar-widget .date-wrap .event.all {
+  background-color: #F7515C;
+}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .calendar-widget .date-wrap .event.begin {
+  border-bottom-color: #F7515C;
+}
+
+.apart__wrapper-right .realty-calendar-widget-wrap .calendar-widget .date-wrap .event.end {
+  border-top-color: #F7515C;
+}
+
+
+
+.apart__wrapper-right .date-wrap {}
+
+.apart__wrapper-right .date {}
+
+.apart__wrapper-right .event {}
+
+.apart__wrapper-right .all {}
+
+.apart__wrapper-right .end {}
+
+.apart__wrapper-right .begin {}

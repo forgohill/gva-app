@@ -27,7 +27,7 @@ const ApartPage = () => {
   }, [pathnameSlice]);
 
   return (
-    <main className='apatrpage'>
+    <main className='main'>
       {/* 
       <button
         onClick={() => {
