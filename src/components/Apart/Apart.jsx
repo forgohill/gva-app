@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import './Apart.css';
-import Description from '../Description/Description.jsx'
+import Description from '../Description/Description.jsx';
+import GalleryApart from '../GalleryApart/GalleryApart.jsx';
 // import './BookingForm.css';
 
 import YandexMap from '../YandexMap/YandexMap.jsx';
@@ -11,8 +12,36 @@ const Apart = ({ insertApart }) => {
 
   const [isActiveYandexMap, setIsActiveYandexMap] = useState(false);
 
+  const [relationWidht, setRelationWidht] = useState(undefined);
+  // const [isBreakpoint, setIsBreakpoint] = useState(0);
+
+  const resizeDelay = () => {
+    let time;
+    if (!time) {
+      time = setTimeout(() => {
+        time = null;
+        // handleResize();
+        setRelationWidht(window.innerWidth);
+      }, 1);
+    };
+  };
+
+  const handleResize = () => {
+    setRelationWidht(window.innerWidth);
+  };
+
+  useEffect(() => {
+    // навешиваем слушатель
+    handleResize();
+    window.addEventListener('resize', resizeDelay);
+    // setIsBreakpoint(relationWidht);
+    // снимаем слушатель
+    return () => window.removeEventListener('resize', resizeDelay);
+  }, []);
+
   const {
     lot,
+    pathname,
     name,
     amountRoom,
     place,
@@ -53,8 +82,25 @@ const Apart = ({ insertApart }) => {
             <h2 className='apart__title'>{name}</h2>
             <p className='apart__title apart__title_type_bold'>{shortInfo}</p>
             <h3 className='apart__subtitle'>{shortAdress}</h3>
-
           </div>
+
+          <div>
+            <button
+              onClick={() => {
+                console.log(relationWidht);
+              }}
+            >
+              ----relationWidht----
+            </button>
+          </div>
+          {relationWidht <= 1023
+            ?
+            ''
+            : <GalleryApart
+              currentPathname={pathname}
+            />
+          }
+
           <h4 className='apart__title-list'>О квартире</h4>
           <ul className='apart__list'>
             <li className='apart__item'>

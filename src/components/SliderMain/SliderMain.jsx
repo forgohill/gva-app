@@ -25,7 +25,6 @@ const SliderMain = () => {
   };
 
   const handleResize = () => {
-
     setRelationWidht(window.innerWidth);
   };
 
