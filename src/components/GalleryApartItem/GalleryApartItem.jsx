@@ -2,7 +2,7 @@ import React from 'react';
 import './GalleryApartItem.css';
 
 const GalleryApartItem = ({ slide, onCurrenImage, currentImage }) => {
-  const { image } = slide;
+  const { preview } = slide;
 
   const handleClickImage = () => {
     onCurrenImage(slide);
@@ -17,7 +17,7 @@ const GalleryApartItem = ({ slide, onCurrenImage, currentImage }) => {
         className={`gallery-apart-item__button ${slide === currentImage ? 'gallery-apart-item__button_type_active' : ''}`}>
         <img
           className='gallery-apart-item__image'
-          src={image}
+          src={preview}
           alt="" />
       </button>
     </li>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import GalleryApartItem from '../GalleryApartItem/GalleryApartItem';
 
-import { galleryApart } from '../../utils/galleryApart'
+import { galleryApart } from '../../utils/galleryApart';
 import './GalleryApart.css';
 
 const GalleryApart = ({ currentPathname }) => {
@@ -21,10 +21,8 @@ const GalleryApart = ({ currentPathname }) => {
   const [isFullScreenImage, setIsFullScreenImage] = useState(false);
 
 
-  const handleClickImage = () => {
-    console.log('handleClickImage');
+  const handleClickImage = (e) => {
     setIsFullScreenImage(!isFullScreenImage);
-    console.log(isFullScreenImage);
   }
 
   const handleCurrenImage = (slide) => {
@@ -83,9 +81,8 @@ const GalleryApart = ({ currentPathname }) => {
 
 
   return (
-    <>
-
-      <div>
+    <article className='apart__gallery-apart gallery-apart'>
+      {/* <div>
         <button
           onClick={() => {
             console.log(currentGalleryApart);
@@ -93,7 +90,7 @@ const GalleryApart = ({ currentPathname }) => {
         >
           ----currentGalleryApart----
         </button>
-      </div>
+      </div> */}
 
       {currentGalleryApart.length !== 0
         ?
@@ -120,11 +117,36 @@ const GalleryApart = ({ currentPathname }) => {
         </div >
         : ''}
 
-      <ul className='apart__gallery-apart gallery-apart'>
+      <ul className=' gallery-apart__grid'>
         {renderGalleryItem}
       </ul>
 
-    </>
+      <div
+        className={`gallery-apart__popup  ${isFullScreenImage ? 'gallery-apart__popup_type_active' : ''}`}>
+
+        <div
+          className="gallery-apart__wrapper-image">
+          <img
+            className='gallery-apart__fullscreen-image'
+            src={currentImage.image} alt="" />
+          <button
+            onClick={handleClickImage}
+            className="gallery-apart__close-button">
+          </button>
+          <button
+            onClick={isReducedIndex}
+            className='gallery-apart__fullscreen-left-button'
+          >
+          </button>
+          <button
+            onClick={isGrowingIndex}
+            className='gallery-apart__fullscreen-right-button'
+          ></button>
+        </div>
+
+      </div>
+    </article>
+
   );
 }
 

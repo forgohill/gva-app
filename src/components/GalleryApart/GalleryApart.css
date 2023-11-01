@@ -1,4 +1,4 @@
-.gallery-apart {
+.gallery-apart__grid {
   margin: 15px 0 0;
   padding: 0;
 
@@ -101,4 +101,126 @@
 
 .gallery-apart__header-image:hover {
   cursor: pointer;
+}
+
+.gallery-apart__popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(40, 42, 48, .8);
+  left: 0;
+  top: 0;
+
+  z-index: 100;
+
+}
+
+.gallery-apart__popup_type_active {
+  display: flex;
+}
+
+
+.gallery-apart__wrapper-image {
+  position: relative;
+  /* width: 100%; */
+
+  height: 80%;
+
+}
+
+.gallery-apart__fullscreen-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery-apart__close-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+
+  position: absolute;
+  top: -58px;
+  right: -58px;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 10px;
+  background-image: url(../../img/background-element/background__close.svg);
+  background-color: transparent;
+
+  opacity: .5;
+}
+
+.gallery-apart__close-button:hover {
+  cursor: pointer;
+}
+
+.gallery-apart__fullscreen-left-button,
+.gallery-apart__fullscreen-right-button {
+  position: absolute;
+  top: 45%;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+
+  background-color: rgba(40, 42, 48, .5);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+.gallery-apart__fullscreen-left-button {
+  left: -60px;
+}
+
+.gallery-apart__fullscreen-right-button {
+
+  right: -60px;
+}
+
+.gallery-apart__fullscreen-left-button:hover,
+.gallery-apart__fullscreen-right-button:hover {
+  cursor: pointer;
+}
+
+.gallery-apart__fullscreen-left-button::after,
+.gallery-apart__fullscreen-right-button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  color: rgba(255, 255, 255, .8);
+  font-family: Nunito;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-apart__fullscreen-left-button::after {
+  content: '<';
+}
+
+.gallery-apart__fullscreen-right-button::after {
+  content: '>';
 }

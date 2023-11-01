@@ -1,0 +1,26 @@
+.slider-laptop {
+  width: 100%;
+  min-height: 100px;
+  /* 
+  background-color: tomato; */
+}
+
+.slider-laptop_type_fullscreen {
+  width: 100%;
+  min-height: 100%;
+
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  /* align-items: center; */
+
+  top: 0;
+  left: 0;
+  background-color: rgba(40, 42, 48, 0.5);
+
+  /* background-color: tomato; */
+
+}

@@ -12,7 +12,7 @@ import CentralStreetApartment from './Descriptions/CentralStreetApartment.jsx';
 import NаturеApartment from './Descriptions/NаturеApartment.jsx';
 import PinkDrеаmApartment from './Descriptions/PinkDrеаmApartment.jsx';
 import MuzaApаrtment from './Descriptions/MuzaApаrtment.jsx';
-import ArtAоintApartment from './Descriptions/ArtAоintApartment.jsx';
+import ArtPоintApartment from './Descriptions/ArtPоintApartment.jsx';
 
 import './Description.css';
 
@@ -32,7 +32,7 @@ const Description = ({ lot }) => {
       {lot === '158315' ? <NаturеApartment /> : ''}
       {lot === '158314' ? <PinkDrеаmApartment /> : ''}
       {lot === '149983' ? <MuzaApаrtment /> : ''}
-      {lot === '136044' ? <ArtAоintApartment /> : ''}
+      {lot === '136044' ? <ArtPоintApartment /> : ''}
 
       {/* Description */}
     </article>

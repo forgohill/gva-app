@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArtAIntApartment = () => {
+const ArtPоintApartment = () => {
   return (
     <>
       <p className="description__pharagraph">
@@ -176,7 +176,7 @@ const ArtAIntApartment = () => {
   );
 }
 
-export default ArtAIntApartment;
+export default ArtPоintApartment;
 
 /**
       <p className="description__pharagraph">

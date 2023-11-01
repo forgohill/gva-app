@@ -4,16 +4,17 @@ import { Helmet } from 'react-helmet-async';
 import './Apart.css';
 import Description from '../Description/Description.jsx';
 import GalleryApart from '../GalleryApart/GalleryApart.jsx';
+import SliderLaptop from '../SliderLaptop/SliderLaptop.jsx';
 // import './BookingForm.css';
 
 import YandexMap from '../YandexMap/YandexMap.jsx';
 
 const Apart = ({ insertApart }) => {
-
+  // включение яндекс карт
   const [isActiveYandexMap, setIsActiveYandexMap] = useState(false);
-
+  // ширина экрана
   const [relationWidht, setRelationWidht] = useState(undefined);
-  // const [isBreakpoint, setIsBreakpoint] = useState(0);
+
 
   const resizeDelay = () => {
     let time;
@@ -84,7 +85,7 @@ const Apart = ({ insertApart }) => {
             <h3 className='apart__subtitle'>{shortAdress}</h3>
           </div>
 
-          <div>
+          {/* <div>
             <button
               onClick={() => {
                 console.log(relationWidht);
@@ -92,13 +93,17 @@ const Apart = ({ insertApart }) => {
             >
               ----relationWidht----
             </button>
-          </div>
-          {relationWidht <= 1023
-            ?
-            ''
-            : <GalleryApart
-              currentPathname={pathname}
-            />
+          </div> */}
+
+          {
+            relationWidht <= 1023
+              ?
+              <SliderLaptop
+                currentPathname={pathname}
+              />
+              : <GalleryApart
+                currentPathname={pathname}
+              />
           }
 
           <h4 className='apart__title-list'>О квартире</h4>
