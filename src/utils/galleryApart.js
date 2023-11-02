@@ -4,6 +4,8 @@ import { nаturеApartment } from "./apartSourceImg/nature-apartment";
 import { goodVibesOnlyApartment } from "./apartSourceImg/good-vibes-only-apartment";
 import { greenPointApartment } from "./apartSourceImg/green-point-apartment";
 import { liner } from "./apartSourceImg/liner.js";
+import { floraApartment } from "./apartSourceImg/floraApartment.js";
+
 
 
 
@@ -37,5 +39,10 @@ export const galleryApart = [
     lot: '122230',
     endpoint: 'liner',
     galleryApartSlider: liner,
+  },
+  {
+    lot: '122241',
+    endpoint: 'flora-apartment',
+    galleryApartSlider: floraApartment,
   },
 ];
