@@ -1,3 +1,18 @@
+.description {
+  /* height: 100px; */
+
+}
+
+.description_type_active {
+  height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 .description__pharagraph {
   margin: 15px 0 10px;
   padding: 0;

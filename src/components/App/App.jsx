@@ -49,8 +49,8 @@ const App = () => {
 
   const handleOpenPopupCallback = () => {
     setIsPopupCallback(!isPopupCallback);
-    console.log('handleOpenPopupCallback');
-    console.log(isPopupCallback);
+    // console.log('handleOpenPopupCallback');
+    // console.log(isPopupCallback);
   }
 
   const closePopup = () => {

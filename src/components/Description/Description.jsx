@@ -17,9 +17,9 @@ import ArtPоintApartment from './Descriptions/ArtPоintApartment.jsx';
 import './Description.css';
 
 
-const Description = ({ lot }) => {
+const Description = ({ lot, showDescription }) => {
   return (
-    <article className='apart__description description'>
+    <article className={`apart__description description ${showDescription ? 'description_type_active' : ''}`}>
       {lot === '122233' ? <GreenApartmentCityView /> : ''}
       {lot === '122231' ? <MarshmallowStudio /> : ''}
       {lot === '122229' ? <GreenPointApartment /> : ''}
@@ -33,8 +33,6 @@ const Description = ({ lot }) => {
       {lot === '158314' ? <PinkDrеаmApartment /> : ''}
       {lot === '149983' ? <MuzaApаrtment /> : ''}
       {lot === '136044' ? <ArtPоintApartment /> : ''}
-
-      {/* Description */}
     </article>
   );
 }

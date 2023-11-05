@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import './Apart.css';
-import Description from '../Description/Description.jsx';
-import GalleryApart from '../GalleryApart/GalleryApart.jsx';
-import SliderLaptop from '../SliderLaptop/SliderLaptop.jsx';
-// import './BookingForm.css';
+import Description from '../Description/Description';
+import GalleryApart from '../GalleryApart/GalleryApart';
+import SliderLaptop from '../SliderLaptop/SliderLaptop';
+import MoreApartmentDesktop from '../MoreApartmentDesktop/MoreApartmentDesktop';
 
-import YandexMap from '../YandexMap/YandexMap.jsx';
+
+import YandexMap from '../YandexMap/YandexMap';
 
 const Apart = ({ insertApart }) => {
   // включение яндекс карт
   const [isActiveYandexMap, setIsActiveYandexMap] = useState(false);
   // ширина экрана
   const [relationWidht, setRelationWidht] = useState(undefined);
-
+  const [showDescription, setShowDescription] = useState(false);
 
   const resizeDelay = () => {
     let time;
@@ -63,16 +64,26 @@ const Apart = ({ insertApart }) => {
     shortInfo,
     coordinatesX,
     coordinatesY,
-    description,
+    // description,
     homeInfo,
     parking,
   } = insertApart;
 
   const handleShowMap = () => {
-    console.log('handleShowMap');
-    console.log(isActiveYandexMap);
     setIsActiveYandexMap(!isActiveYandexMap);
   }
+
+  const handleShowDescription = () => {
+    setShowDescription(!showDescription);
+  }
+
+  useEffect(() => {
+    if (relationWidht >= 1024) {
+      setShowDescription(false)
+    } else {
+      setShowDescription(true)
+    }
+  }, [relationWidht]);
 
   return (
     <section className='apart'>
@@ -85,16 +96,6 @@ const Apart = ({ insertApart }) => {
             <h3 className='apart__subtitle'>{shortAdress}</h3>
           </div>
 
-          {/* <div>
-            <button
-              onClick={() => {
-                console.log(relationWidht);
-              }}
-            >
-              ----relationWidht----
-            </button>
-          </div> */}
-
           {
             relationWidht <= 1023
               ?
@@ -104,6 +105,65 @@ const Apart = ({ insertApart }) => {
               : <GalleryApart
                 currentPathname={pathname}
               />
+          }
+
+          {/* КАРТА ЛЕПТОП */}
+          {relationWidht <= 1023 ?
+            <>
+
+              <h4 className='apart__title-list'>Расположение</h4>
+              <ul className='apart__list'>
+                <li className='apart__item'>
+                  <p className="apart__pharagraph">
+                    {adress}
+                  </p>
+                </li>
+
+                <li className='apart__item'>
+                  <div className="apart__button-wrapper">
+                    <button
+                      onClick={handleShowMap}
+                      className={`apart__button-map ${isActiveYandexMap ? 'apart__button-map_active' : ''}`}>
+                      {`${!isActiveYandexMap ? 'Показать на карте ↓' : 'Скрыть карту 	↑'}`}
+                    </button>
+                  </div>
+                </li>
+              </ul>
+
+              <div className={`apart__map-wrapper ${!isActiveYandexMap ? 'apart__map-wrapper_active' : ''}`}>
+                <YandexMap
+                  coordinatesX={coordinatesX}
+                  coordinatesY={coordinatesY}
+                  relationWidht={relationWidht}
+                ></YandexMap>
+              </div>
+            </>
+            :
+            ''
+          }
+
+
+          {/* ОПИСАНИЕ ЛЕПТОП */}
+          {relationWidht <= 1023 ?
+            <>
+              <h4 className='apart__title-list'>Описание</h4>
+              <Description
+                lot={lot}
+                showDescription={showDescription}
+              />
+
+              {showDescription ?
+                <p className="apart__pharagraph">...</p>
+                : ''}
+
+              <button
+                onClick={handleShowDescription}
+                className={`apart__button-forward-list ${showDescription ? 'apart__button-forward-list_active' : ''}`}>
+                {`${showDescription ? 'Читать полностью ↓' : 'Скрыть описание 	↑'}`}
+              </button>
+            </>
+            :
+            ''
           }
 
           <h4 className='apart__title-list'>О квартире</h4>
@@ -183,38 +243,52 @@ const Apart = ({ insertApart }) => {
             </li>
           </ul>
 
-          <h4 className='apart__title-list'>Расположение</h4>
-          <ul className='apart__list'>
-            <li className='apart__item'>
-              <p className="apart__pharagraph">
-                {adress}
-              </p>
-            </li>
 
-            <li className='apart__item'>
-              <div className="apart__button-wrapper">
-                <button
-                  onClick={handleShowMap}
-                  className={`apart__button-map ${isActiveYandexMap ? 'apart__button-map_active' : ''}`}>
-                  {`${!isActiveYandexMap ? 'Показать на карте ↓' : 'Скрыть карту 	↑'}`}
-                </button>
+          {/* КАРТА ДЕСКТОП */}
+
+          {relationWidht <= 1023 ? '' :
+            <>
+              <h4 className='apart__title-list'>Расположение</h4>
+              <ul className='apart__list'>
+                <li className='apart__item'>
+                  <p className="apart__pharagraph">
+                    {adress}
+                  </p>
+                </li>
+
+                <li className='apart__item'>
+                  <div className="apart__button-wrapper">
+                    <button
+                      onClick={handleShowMap}
+                      className={`apart__button-map ${isActiveYandexMap ? 'apart__button-map_active' : ''}`}>
+                      {`${!isActiveYandexMap ? 'Показать на карте ↓' : 'Скрыть карту 	↑'}`}
+                    </button>
+                  </div>
+                </li>
+              </ul>
+
+              <div className={`apart__map-wrapper ${!isActiveYandexMap ? 'apart__map-wrapper_active' : ''}`}>
+                <YandexMap
+                  coordinatesX={coordinatesX}
+                  coordinatesY={coordinatesY}
+                  relationWidht={relationWidht}
+                ></YandexMap>
               </div>
-            </li>
-          </ul>
 
-          <div className={`apart__map-wrapper ${!isActiveYandexMap ? 'apart__map-wrapper_active' : ''}`}>
-            <YandexMap
-              coordinatesX={coordinatesX}
-              coordinatesY={coordinatesY}
-            ></YandexMap>
-          </div>
+            </>
+          }
 
-          <h4 className='apart__title-list'>Описание</h4>
-          <Description
-            lot={lot}
-          />
 
-          {/* <p className='apart__description'>{description}</p> */}
+
+
+
+          {relationWidht <= 1023 ? '' :
+            <>
+              <h4 className='apart__title-list'>Описание</h4>
+              <Description lot={lot} />
+            </>
+          }
+
           <h4 className='apart__title-list'>О доме</h4>
           <ul className='apart__list'>
             <li className='apart__item'>
@@ -228,27 +302,10 @@ const Apart = ({ insertApart }) => {
               </p>
             </li>
           </ul>
+
+          {relationWidht <= 1023 ? '' : <MoreApartmentDesktop currentPathname={pathname} />}
+
         </div>
-
-        {/*           <h4 className='apart__title-list'>Расположение</h4>
-          <ul className='apart__list'>
-            <li className='apart__item'>
-              <p className="apart__pharagraph">
-                {adress}
-              </p>
-            </li>
-
-            <li className='apart__item'>
-              <div className="apart__button-wrapper">
-                <button
-                  onClick={handleShowMap}
-                  className={`apart__button-map ${isActiveYandexMap ? 'apart__button-map_active' : ''}`}>
-                  {`${!isActiveYandexMap ? 'Показать на карте ↓' : 'Скрыть карту 	↑'}`}
-                </button>
-              </div>
-            </li>
-          </ul> */}
-
 
         <div className="apart__wrapper-right">
           <div
@@ -258,6 +315,8 @@ const Apart = ({ insertApart }) => {
           <div
             className=''
             id="rc-small-bookings-widget-root"></div>
+
+          {relationWidht <= 1023 ? <MoreApartmentDesktop currentPathname={pathname} /> : ''}
 
         </div>
       </div>

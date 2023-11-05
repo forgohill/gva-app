@@ -26,7 +26,6 @@ const GalleryApart = ({ currentPathname }) => {
   }
 
   const handleCurrenImage = (slide) => {
-    console.log(slide)
     setCurrentImage(slide);
     setIsIndexOf(currentGalleryApart.indexOf(slide));
   };
@@ -79,19 +78,15 @@ const GalleryApart = ({ currentPathname }) => {
     }
   }, [isIndexOf]);
 
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+    if (isFullScreenImage) {
+      document.body.style.overflow = "hidden";
+    }
+  }, [isFullScreenImage]);
 
   return (
     <article className='apart__gallery-apart gallery-apart'>
-      {/* <div>
-        <button
-          onClick={() => {
-            console.log(currentGalleryApart);
-          }}
-        >
-          ----currentGalleryApart----
-        </button>
-      </div> */}
-
       {currentGalleryApart.length !== 0
         ?
         <div
@@ -101,6 +96,7 @@ const GalleryApart = ({ currentPathname }) => {
             minHeight: "450px"
           }}
           className='gallery-apart__header-image-contaner'>
+
           <img
             onClick={handleClickImage}
             className='gallery-apart__header-image'
@@ -127,12 +123,15 @@ const GalleryApart = ({ currentPathname }) => {
         <div
           className="gallery-apart__wrapper-image">
           <img
+            onClick={isGrowingIndex}
             className='gallery-apart__fullscreen-image'
             src={currentImage.image} alt="" />
+
           <button
             onClick={handleClickImage}
             className="gallery-apart__close-button">
           </button>
+
           <button
             onClick={isReducedIndex}
             className='gallery-apart__fullscreen-left-button'

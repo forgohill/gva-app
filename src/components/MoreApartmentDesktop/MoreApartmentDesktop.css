@@ -1,0 +1,44 @@
+.more-apartment-desktop {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: fit-content;
+
+
+}
+
+.apart__title-list {
+  /* margin: 30px 0 10px;
+  padding: 0;
+  color: #282A30;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.22; */
+}
+
+.more-apartment-desktop__title {
+  width: fit-content;
+  margin: 30px 0 10px;
+  /* padding: 0; */
+  padding: 0 10px;
+  color: #282A30;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.22;
+  box-sizing: border-box;
+
+}
+
+.more-apartment-desktop__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}

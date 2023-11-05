@@ -8,9 +8,9 @@ const BurgerMenu = () => {
   const [isOnMenu, setIsOnMenu] = useState(false);
 
   const handleMenu = () => {
-    console.log('handleMenu');
+    // console.log('handleMenu');
     setIsOnMenu(!isOnMenu);
-    console.log(isOnMenu);
+    // console.log(isOnMenu);
   }
   const disableMenu = () => {
     setIsOnMenu(false);

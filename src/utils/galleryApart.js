@@ -43,7 +43,7 @@ export const galleryApart = [
 ! nаturе-араrtmеnt
 ! pink-drеаm-араrtmеnt
 ! muza-аpаrtment
-art-роint-араrtmеnt
+! art-роint-араrtmеnt
 
 ! greenApartmentCityView
 ! marshmallowStudio
@@ -57,6 +57,6 @@ art-роint-араrtmеnt
 ! nаturеApartment
 ! pinkDrеаmApartment
 ! muzaApаrtment
-artPоintApartment
+! artPоintApartment
 
  */

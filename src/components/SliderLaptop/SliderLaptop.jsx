@@ -11,6 +11,9 @@ import SlideLaptop from '../SlideLaptop/SlideLaptop.jsx';
 import { galleryApart } from '../../utils/galleryApart';
 
 const SliderLaptop = ({ currentPathname }) => {
+
+  // window.onscroll = () => { window.scroll(0, 0); };
+
   const [currentGallery, setCurrentGallery] = useState([]);
   const [isFullScreenImage, setIsFullScreenImage] = useState(false);
   // const [isFullScreenImageLaptop, setIsFullScreenImageLaptop] = useState(false);
@@ -113,6 +116,12 @@ const SliderLaptop = ({ currentPathname }) => {
     )
   });
 
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+    if (isFullScreenImage) {
+      document.body.style.overflow = "hidden";
+    }
+  }, [isFullScreenImage]);
 
   return (
     <article className={`apart__slider-laptop slider-laptop ${isFullScreenImage ? 'slider-laptop_type_fullscreen' : ''}`}>

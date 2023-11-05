@@ -6,7 +6,7 @@ import './PopUpCallback.css';
 const PopUpCallback = ({ onPopupCallback, onClosePopup }) => {
 
   const handleClosePopup = () => {
-    console.log('handleClosePopup');
+    // console.log('handleClosePopup');
     onClosePopup();
   }
 

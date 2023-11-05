@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { YMaps, Map, Placemark, Button } from '@pbe/react-yandex-maps';
 
 
 
 import './YandexMap.css';
-const YandexMap = ({ coordinatesX, coordinatesY }) => {
+const YandexMap = ({ coordinatesX, coordinatesY, relationWidht }) => {
 
   // const center = [coordinatesX, coordinatesY];
+
+
+
+  const [mapWidth, setMapWidth] = useState(null);
+
+  useEffect(() => {
+    if (relationWidht >= 1024) {
+      setMapWidth(634)
+    } else if (relationWidht < 1024 && relationWidht > 475) {
+      setMapWidth(475)
+    } else if (relationWidht <= 475) {
+      setMapWidth(320)
+    }
+  }, [relationWidht]);
+
 
   return (
     <div>
@@ -29,7 +44,9 @@ const YandexMap = ({ coordinatesX, coordinatesY }) => {
               controls: ["zoomControl", "fullscreenControl"],
 
             }}
-          width='500px'
+          // width='500px'
+          width={mapWidth}
+
           height='240px'
           modules={["control.ZoomControl", "control.FullscreenControl"]}
         >
