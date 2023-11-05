@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,6 +27,8 @@ const SliderLaptop = ({ currentPathname }) => {
       image: '1',
     }
   );
+
+
 
   const handleClickImage = (e) => {
     setIsFullScreenImage(!isFullScreenImage);
@@ -72,7 +74,12 @@ const SliderLaptop = ({ currentPathname }) => {
     );
   }
 
-
+  // контроль сброса реакт-слик-слайдер на [0]  
+  const sliderRef = useRef();
+  const handlePathHasChanged = index => {
+    console.log('handleOnClick')
+    sliderRef.current.slickGoTo(0);
+  };
 
   const settings = {
     dots: true,
@@ -80,6 +87,8 @@ const SliderLaptop = ({ currentPathname }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    initialSlide: 0,
+
     appendDots: dots => (
       <div
         className='slide-laptop__dots-wrapper'
@@ -111,7 +120,6 @@ const SliderLaptop = ({ currentPathname }) => {
         key={slide.key}
         card={slide}
         onClickImage={handleClickImage}
-      // relationWidht={relationWidht}
       />
     )
   });
@@ -123,12 +131,19 @@ const SliderLaptop = ({ currentPathname }) => {
     }
   }, [isFullScreenImage]);
 
+  // эффект сбрасывает реакт-слик-слайдер на [0]
+  useEffect(() => {
+    handlePathHasChanged();
+  }, [currentPathname]);
+
   return (
     <article className={`apart__slider-laptop slider-laptop ${isFullScreenImage ? 'slider-laptop_type_fullscreen' : ''}`}>
       <div
         className='slider-laptop__wrapper'
       >
-        <Slider {...settings}>
+        <Slider {...settings}
+          ref={sliderRef}
+        >
           {renderSlideLaptop}
         </Slider>
       </div>
