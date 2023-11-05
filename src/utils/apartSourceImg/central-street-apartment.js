@@ -107,5 +107,4 @@ export const centralStreetApartment = [
   { key: 'centralStreetApartment033', image: centralStreetApartment033, preview: centralStreetApartmentPrew033, },
   { key: 'centralStreetApartment034', image: centralStreetApartment034, preview: centralStreetApartmentPrew034, },
   { key: 'centralStreetApartment035', image: centralStreetApartment035, preview: centralStreetApartmentPrew035, },
-
 ]

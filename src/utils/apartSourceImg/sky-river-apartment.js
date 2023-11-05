@@ -106,5 +106,4 @@ export const skyRiverApartment = [
   { key: 'skyRiverApartment033', image: skyRiverApartment033, preview: skyRiverApartmentPrew033, },
   { key: 'skyRiverApartment034', image: skyRiverApartment034, preview: skyRiverApartmentPrew034, },
   { key: 'skyRiverApartment035', image: skyRiverApartment035, preview: skyRiverApartmentPrew035, },
-
 ]

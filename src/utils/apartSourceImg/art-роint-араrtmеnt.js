@@ -67,16 +67,6 @@ import artPоintApartmentPrew031 from '../../img/gallery-apartments/art-роint-
 import artPоintApartmentPrew032 from '../../img/gallery-apartments/art-роint-араrtmеnt/art-роint-араrtmеnt-prw/art-роint-араrtmеnt-prew-032.jpg';
 import artPоintApartmentPrew033 from '../../img/gallery-apartments/art-роint-араrtmеnt/art-роint-араrtmеnt-prw/art-роint-араrtmеnt-prew-033.jpg';
 
-
-
-
-
-
-
-
-
-
-
 export const artPоintApartment = [
   { key: 'artPоintApartment001', image: artPоintApartment001, preview: artPоintApartmentPrew001, },
   { key: 'artPоintApartment002', image: artPоintApartment002, preview: artPоintApartmentPrew002, },

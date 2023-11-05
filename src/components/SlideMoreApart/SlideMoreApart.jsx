@@ -24,7 +24,7 @@ const SlideMoreApart = ({ slide }) => {
     <li
       className='more-apartment-desktop__item slide-more-apart'>
       <Link
-        to={`${slide.endpoint}`}
+        to={`/apartment/${slide.endpoint}`}
         className='slide-more-apart__link'>
 
         <div
