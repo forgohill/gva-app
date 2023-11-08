@@ -79,10 +79,12 @@
   border: 0;
   outline: none;
   background-color: #F7515C;
+  cursor: pointer;
+  transition: 0.3s all;
 }
 
-.callback__button {
-  cursor: pointer;
+.callback__button:hover {
+  background-color: rgba(247, 81, 92, 0.8);
 }
 
 .callback__image {
@@ -94,6 +96,9 @@
   height: 714px;
 
   background-image: url(../../img/background-element/callback__background-image.jpg);
+
+  background-position: center;
+  background-size: cover;
 }
 
 .callback__image::before {
@@ -139,6 +144,10 @@
   .callback__title {
     font-size: 70px;
     line-height: 1.5;
+  }
+
+  .callback__image {
+    right: 50px;
   }
 
   .callback__accent {

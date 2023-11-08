@@ -16,7 +16,7 @@ const Advantage = () => {
             <span className="advantage__number">1</span>
             <div className="advantage__wrapper">
               <h3 className="advantage__subtitle">Бесконтактное заселение</h3>
-              <p className="advantage__pharagraph">Provide the best service and very fast response.</p>
+              <p className="advantage__pharagraph">Во всех наших квартирах установлены замки электорнные Flatsharing, гость получет инструкции и производит самостоятельное заселение.</p>
             </div>
           </Link>
         </li>
@@ -25,7 +25,7 @@ const Advantage = () => {
             <span className="advantage__number">2</span>
             <div className="advantage__wrapper">
               <h3 className="advantage__subtitle">Welcome набор</h3>
-              <p className="advantage__pharagraph">With a 5-year warranty provided, providing satisfying service.</p>
+              <p className="advantage__pharagraph">Помимо стандартного набора: одноразовых тапочек, зебной пасты и шапочек для душа. Мы угощаем гостей чаем или кофе с «вкусняшками»</p>
             </div>
           </Link>
         </li>
@@ -34,8 +34,7 @@ const Advantage = () => {
             <span className="advantage__number">3</span>
             <div className="advantage__wrapper">
               <h3 className="advantage__subtitle">Современный дизайн</h3>
-              <p className="advantage__pharagraph">The room looks beautiful with a blend of contemporary and attractive
-                design.</p>
+              <p className="advantage__pharagraph">При создании наших квартир мы привлекали услуги дизайнера, и если вам нравятся наши интерьеры, мы всегда можем с вами контактом нашего дизайнера.</p>
             </div>
           </Link>
         </li>

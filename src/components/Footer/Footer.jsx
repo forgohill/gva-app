@@ -114,15 +114,33 @@ const Footer = () => {
                 +7(962)514 14 93
               </Link>
             </li>
-            <li className="footer__item">
-              <Link to="#" className="footer__link">
-                Нижний Новгород 603116 А/Я ~
-              </Link>
+            <li className="footer__item footer__item_type_container">
+              <Link
+                target='_blank'
+                rel='noreferrer'
+                to='https://wa.me/message/VRG2MXM22RWQG1'
+                className="footer__link footer__link_type_icon footer__link_type_whatsapp" />
+              <Link
+                target='_blank'
+                rel='noreferrer'
+                to='https://t.me/belova_rentier_nn'
+                className="footer__link footer__link_type_icon footer__link_type_telegram" />
+              <Link
+                target='_blank'
+                rel='noreferrer'
+                to="https://www.instagram.com/apart.nn/"
+                className="footer__link footer__link_type_icon footer__link_type_instagram" />
+              <Link
+                target='_blank'
+                rel='noreferrer'
+                to="https://vk.com/apart.nizhnynovgorod"
+                className="footer__link footer__link_type_icon footer__link_type_vkontakte" />
             </li>
+
           </ul>
         </li>
-      </ul>
-    </footer>
+      </ul >
+    </footer >
   );
 }
 

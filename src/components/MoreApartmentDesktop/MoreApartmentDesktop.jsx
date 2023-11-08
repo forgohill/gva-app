@@ -11,8 +11,7 @@ const MoreApartmentDesktop = () => {
       key={slide.lot}
       slide={slide}
     />
-  }
-  );
+  });
 
   return (
     <article

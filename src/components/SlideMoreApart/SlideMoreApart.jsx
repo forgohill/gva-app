@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './SlideMoreApart.css';
 
-const SlideMoreApart = ({ slide }) => {
+const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno }) => {
   const [currenGallery, setCurrenGallery] = useState([{
     key: 'none',
     image: 'none',
@@ -24,7 +24,18 @@ const SlideMoreApart = ({ slide }) => {
     <li
       className='more-apartment-desktop__item slide-more-apart'>
       <Link
-        to={`/apartment/${slide.endpoint}`}
+        target={placeOstrovok || placeSutochno ? '_blank' : '_self'}
+        rel='noreferrer'
+        to={
+          placeOstrovok
+            ?
+            `${slide.ostrovokru}`
+            : `${placeSutochno ?
+              `${slide.sutocnoru}`
+              : `${`/apartment/${slide.endpoint}`}`
+            }`
+
+        }
         className='slide-more-apart__link'>
 
         <div
@@ -47,8 +58,6 @@ const SlideMoreApart = ({ slide }) => {
       <p
         className='slide-more-apart__paragraph slide-more-apart__paragraph_type_accent'
       >{slide.shortAdress}</p>
-
-
     </li>
   );
 }

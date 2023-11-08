@@ -99,6 +99,13 @@
   background-color: #F7515C;
 
   text-decoration: none;
+
+  transition: 0.3s all;
+}
+
+.about-us-main__link:hover {
+  background-color: rgba(247, 81, 92, 0.8);
+
 }
 
 .about-us-main__image {
@@ -112,6 +119,7 @@
   background-image: url(../../img/background-element/about-us-main__image.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 
   z-index: 10;
 

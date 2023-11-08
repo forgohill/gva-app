@@ -377,6 +377,8 @@ export const slidesMain = [
     shortAdress: 'ул. Героя Жидкова, 2, Нижний Новгород',
     shortInfo: 'Квартира-студия, 23м², 14/14 эт.',
     galleryApartSlider: greenApartmentCityView,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437078/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1030617',
   },
   {
     name: 'Marshmallow Studio',
@@ -387,6 +389,8 @@ export const slidesMain = [
     shortAdress: 'Московское шоссе, 167к3, Нижний Новгород',
     shortInfo: 'Квартира-студия, 21м², 2/14 эт.',
     galleryApartSlider: marshmallowStudio,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437077/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1308731',
   },
   {
     name: 'Green point apartment',
@@ -397,6 +401,8 @@ export const slidesMain = [
     shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
     shortInfo: '1-к. квартира, 42м², 3/25 эт.',
     galleryApartSlider: greenPointApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411611',
   },
   {
     name: 'Лайнер',
@@ -407,6 +413,8 @@ export const slidesMain = [
     shortAdress: 'ул. Максима Горького, 24, Нижний Новгород',
     shortInfo: '1-к. квартира, 40м², 3/11 эт.',
     galleryApartSlider: liner,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273089/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408879',
   },
   {
     name: 'Flora apartment',
@@ -417,6 +425,8 @@ export const slidesMain = [
     shortAdress: 'ул. Максима Горького, 45, Нижний Новгород',
     shortInfo: '2-к. квартира, 61м², 3/6 эт.',
     galleryApartSlider: floraApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273085/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1383187',
   },
   {
     name: 'Good vibes only apartment',
@@ -427,6 +437,8 @@ export const slidesMain = [
     shortAdress: ' ул. Максима Горького, 23А, Нижний Новгород',
     shortInfo: 'Квартира-студия, 26м², 7/19 эт.',
     galleryApartSlider: goodVibesOnlyApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1385827',
   },
   {
     name: 'Happy moments apartment',
@@ -437,6 +449,8 @@ export const slidesMain = [
     shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
     shortInfo: '1-к. квартира, 45м², 4/14 эт.',
     galleryApartSlider: happyMomentsApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411647',
   },
   {
     name: 'Sky river apartment',
@@ -447,6 +461,8 @@ export const slidesMain = [
     shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
     shortInfo: '1-к. квартира, 42м², 11/17 эт.',
     galleryApartSlider: skyRiverApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408155',
   },
   {
     name: 'Central street apartment',
@@ -457,6 +473,8 @@ export const slidesMain = [
     shortAdress: 'ул Большая Покровская, 18А, Нижний Новгород',
     shortInfo: '1-к. квартира, 42м², 3/6 эт.',
     galleryApartSlider: centralStreetApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437085/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411553',
   },
   {
     name: 'Nаturе араrtmеnt',
@@ -467,6 +485,8 @@ export const slidesMain = [
     shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
     shortInfo: '1-к. квартира, 38м², 6/25 эт.',
     galleryApartSlider: nаturеApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630085',
   },
   {
     name: 'Рink drеаm араrtmеnt',
@@ -477,6 +497,8 @@ export const slidesMain = [
     shortAdress: 'ул. Семашко, 28, Нижний Новгород',
     shortInfo: '1-к. квартира, 42м², 17/19 эт.',
     galleryApartSlider: pinkDrеаmApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630061',
   },
   {
     name: 'Muza аpаrtment',
@@ -487,6 +509,8 @@ export const slidesMain = [
     shortAdress: 'ул. Максима Горького, 23А, Нижний Новгород',
     shortInfo: 'Квартира-студия, 32м², 17/19 эт.',
     galleryApartSlider: muzaApаrtment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10677609/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1592436',
   },
   {
     name: 'Аrt роint араrtmеnt',
@@ -497,5 +521,7 @@ export const slidesMain = [
     shortAdress: 'ул. Тимирязева, 7к5, Нижний Новгород',
     shortInfo: '1-к. квартира, 41м², 11/17 эт.',
     galleryApartSlider: artPоintApartment,
+    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10572857/',
+    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1503448',
   },
 ];

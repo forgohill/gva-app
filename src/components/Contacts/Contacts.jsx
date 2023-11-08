@@ -62,14 +62,6 @@ const Contacts = () => {
             </Link>
           </li>
 
-          <li className="contacts__item">
-            <p className="contacts__pharagraph contacts__pharagraph_type_item">
-              адрес:
-            </p>
-            <p className="contacts__pharagraph contacts__pharagraph_type_item">
-              Нижний Новгород 603116 А/Я ~
-            </p>
-          </li>
         </ul>
         <div className='about-us-page__background-rectangle'></div>
 

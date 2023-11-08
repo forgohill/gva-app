@@ -40,7 +40,7 @@ import VideoPresentation from '../VideoPresentation/VideoPresentation.jsx';
 import PageNotFound from '../PageNotFound/PageNotFound.jsx';
 
 const App = () => {
-  const pathname = useLocation();
+  const { pathname } = useLocation();
 
   const [isPopupCallback, setIsPopupCallback] = useState(false);
 
@@ -111,7 +111,10 @@ const App = () => {
         <Route
           path='/place/place-sutochnoru'
           element={
-            <Place></Place>
+            <Place
+              pathname={pathname}
+
+            ></Place>
           } />
         <Route
           path='/requisites'
