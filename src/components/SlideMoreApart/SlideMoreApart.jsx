@@ -34,7 +34,6 @@ const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno }) => {
               `${slide.sutocnoru}`
               : `${`/apartment/${slide.endpoint}`}`
             }`
-
         }
         className='slide-more-apart__link'>
 
@@ -77,5 +76,4 @@ export default SlideMoreApart;
           console.log(firstElementGallery);
         }}
       >firstElementGallery</button>
-
  */

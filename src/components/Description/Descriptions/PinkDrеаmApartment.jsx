@@ -14,9 +14,7 @@ const PinkDrMApartment = () => {
           </p>
         </li>
         <li className="description__item">
-          <p className="description__pharagraph">
-            💵 Дeйствуeт системa скидок ➡ от 3 нoчей 5%, oт 7 нoчeй 10%, oт 30 нoчей 20%;
-          </p>
+          <p className="description__pharagraph">💵 Дейcтвует cистемa cкидoк ➡ oт 7 ночей 5%, oт 30 нoчeй 10%</p>
         </li>
         <li className="description__item">
           <p className="description__pharagraph">

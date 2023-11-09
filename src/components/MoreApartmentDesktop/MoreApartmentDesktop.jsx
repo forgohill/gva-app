@@ -1,6 +1,6 @@
 import React from 'react';
 import { slidesMain } from '../../utils/constantsSource';
-import SlideMoreApart from '../SlideMoreApart/SlideMoreApart.jsx'
+import SlideMoreApart from '../SlideMoreApart/SlideMoreApart.jsx';
 
 import './MoreApartmentDesktop.css';
 

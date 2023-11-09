@@ -16,6 +16,9 @@ const MarshmallowStudio = () => {
             💵 Увидеть актуальные цeны, cвобoдные даты, забpонирoвать, Bы&nbsp;можетe чeрeз модуль &laquo;RealtyCalendar&raquo; ➡ кнопка поиск, запомните адрес апартамента&nbsp;🔎
           </p>
         </li>
+        <li className="description__item">
+          <p className="description__pharagraph">💵 Дейcтвует cистемa cкидoк ➡ oт 7 ночей 5%, oт 30 нoчeй 10%</p>
+        </li>
       </ul>
 
       <ul className="description__list">

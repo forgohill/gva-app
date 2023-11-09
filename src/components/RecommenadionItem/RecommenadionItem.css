@@ -1,0 +1,85 @@
+.recommenadion-item {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  /* justify-content: space-between; */
+}
+
+.recommenadion-item__image-wrapper {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+
+.recommenadion-item__image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.recommenadion-item__pharagraph {
+  margin: 0;
+  padding: 0;
+
+  max-width: 480px;
+
+  margin: 10px 0 5px;
+  padding: 0;
+  color: rgba(40, 42, 48, 0.90);
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.41;
+}
+
+.recommenadion-item__button {
+  margin: 0;
+  padding: 0;
+
+  margin-top: -10px;
+  padding: 0;
+  color: #06a7fe;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.41;
+
+  border: 0;
+  outline: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 1280px) {} */
+
+/* @media screen and (max-width: 1024px) {} */
+
+/* @media screen and (max-width: 834px) {} */
+
+@media screen and (max-width: 768px) {
+  .recommenadion-item {
+    margin: 10px 0 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .recommenadion-item__pharagraph,
+  .recommenadion-item__button {
+    font-size: 18px;
+  }
+
+}
+
+/* @media screen and (max-width: 430px) {} */
+
+/* @media screen and (max-width: 320px) {} */

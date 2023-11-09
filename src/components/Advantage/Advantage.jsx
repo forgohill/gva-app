@@ -25,7 +25,7 @@ const Advantage = () => {
             <span className="advantage__number">2</span>
             <div className="advantage__wrapper">
               <h3 className="advantage__subtitle">Welcome набор</h3>
-              <p className="advantage__pharagraph">Помимо стандартного набора: одноразовых тапочек, зебной пасты и шапочек для душа. Мы угощаем гостей чаем или кофе с «вкусняшками»</p>
+              <p className="advantage__pharagraph">Помимо стандартного набора: одноразовых тапочек, зубной пасты и шапочек для душа. Мы угощаем гостей чаем или кофе с «вкусняшками»</p>
             </div>
           </Link>
         </li>

@@ -14,9 +14,7 @@ const FloraApartment = () => {
           </p>
         </li>
         <li className="description__item">
-          <p className="description__pharagraph">
-            💵 Действует cистeма cкидок ➡ от 3 ночeй 5%, oт 7 нoчей 10%, oт 30 нoчeй 20%;
-          </p>
+          <p className="description__pharagraph">💵 Дейcтвует cистемa cкидoк ➡ oт 7 ночей 5%, oт 30 нoчeй 10%</p>
         </li>
         <li className="description__item">
           <p className="description__pharagraph">

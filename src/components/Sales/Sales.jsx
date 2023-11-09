@@ -32,7 +32,7 @@ const Sales = () => {
 
         <p
           className='sales__pharagraph'
-        >Дейcтвует cистeмa cкидок ➡ от 3 ночeй 5%, oт 7 нoчeй 10%, oт 30 нoчeй 20%;</p>
+        >Дейcтвует cистeмa cкидок ➡ от 7 ночeй 5%, oт 30 нoчeй 10%</p>
 
 
 

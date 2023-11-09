@@ -26,6 +26,22 @@ import { pinkDrеаmApartment } from "./apartSourceImg/pink-drеаm-араrtmеn
 import { muzaApаrtment } from "./apartSourceImg/muza-аpаrtment";
 import { artPоintApartment } from "./apartSourceImg/art-роint-араrtmеnt";
 
+import { greenApartmentCityViewRecommendations } from "./apartSourceRecommendations/green-apartment-city-view";
+import { marshmallowStudioRecommendations } from "./apartSourceRecommendations/marshmallow-studio";
+import { greenPointApartmentRecommendations } from "./apartSourceRecommendations/green-point-apartment";
+import { linerRecommendations } from "./apartSourceRecommendations/liner";
+import { floraApartmentRecommendations } from "./apartSourceRecommendations/floraApartment";
+import { goodVibesOnlyApartmentRecommendations } from "./apartSourceRecommendations/good-vibes-only-apartment";
+import { happyMomentsApartmentRecommendations } from "./apartSourceRecommendations/happy-moments-apartment";
+import { skyRiverApartmentRecommendations } from "./apartSourceRecommendations/sky-river-apartment";
+import { centralStreetApartmentRecommendations } from "./apartSourceRecommendations/central-street-apartment";
+import { nаturеApartmentRecommendations } from "./apartSourceRecommendations/nature-apartment";
+import { pinkDrеаmApartmentRecommendations } from "./apartSourceRecommendations/pink-drеаm-араrtmеnt";
+import { muzaApаrtmentRecommendations } from "./apartSourceRecommendations/muza-аpаrtment";
+import { artPоintApartmentRecommendations } from "./apartSourceRecommendations/art-роint-араrtmеnt";
+
+
+
 export const apartmentsPage = [
   {
     lot: '122233',
@@ -379,6 +395,7 @@ export const slidesMain = [
     galleryApartSlider: greenApartmentCityView,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437078/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1030617',
+    recommendations: greenApartmentCityViewRecommendations,
   },
   {
     name: 'Marshmallow Studio',
@@ -391,6 +408,7 @@ export const slidesMain = [
     galleryApartSlider: marshmallowStudio,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437077/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1308731',
+    recommendations: marshmallowStudioRecommendations,
   },
   {
     name: 'Green point apartment',
@@ -403,6 +421,7 @@ export const slidesMain = [
     galleryApartSlider: greenPointApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411611',
+    recommendations: greenPointApartmentRecommendations,
   },
   {
     name: 'Лайнер',
@@ -415,6 +434,7 @@ export const slidesMain = [
     galleryApartSlider: liner,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273089/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408879',
+    recommendations: linerRecommendations,
   },
   {
     name: 'Flora apartment',
@@ -427,6 +447,7 @@ export const slidesMain = [
     galleryApartSlider: floraApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273085/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1383187',
+    recommendations: floraApartmentRecommendations,
   },
   {
     name: 'Good vibes only apartment',
@@ -439,6 +460,7 @@ export const slidesMain = [
     galleryApartSlider: goodVibesOnlyApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1385827',
+    recommendations: goodVibesOnlyApartmentRecommendations,
   },
   {
     name: 'Happy moments apartment',
@@ -451,6 +473,7 @@ export const slidesMain = [
     galleryApartSlider: happyMomentsApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411647',
+    recommendations: happyMomentsApartmentRecommendations,
   },
   {
     name: 'Sky river apartment',
@@ -463,6 +486,7 @@ export const slidesMain = [
     galleryApartSlider: skyRiverApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408155',
+    recommendations: skyRiverApartmentRecommendations,
   },
   {
     name: 'Central street apartment',
@@ -475,6 +499,7 @@ export const slidesMain = [
     galleryApartSlider: centralStreetApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437085/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411553',
+    recommendations: centralStreetApartmentRecommendations,
   },
   {
     name: 'Nаturе араrtmеnt',
@@ -487,6 +512,7 @@ export const slidesMain = [
     galleryApartSlider: nаturеApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630085',
+    recommendations: nаturеApartmentRecommendations,
   },
   {
     name: 'Рink drеаm араrtmеnt',
@@ -499,6 +525,7 @@ export const slidesMain = [
     galleryApartSlider: pinkDrеаmApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630061',
+    recommendations: pinkDrеаmApartmentRecommendations,
   },
   {
     name: 'Muza аpаrtment',
@@ -511,6 +538,7 @@ export const slidesMain = [
     galleryApartSlider: muzaApаrtment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10677609/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1592436',
+    recommendations: muzaApаrtmentRecommendations,
   },
   {
     name: 'Аrt роint араrtmеnt',
@@ -523,5 +551,6 @@ export const slidesMain = [
     galleryApartSlider: artPоintApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10572857/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1503448',
+    recommendations: artPоintApartmentRecommendations,
   },
 ];
