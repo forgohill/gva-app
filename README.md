@@ -61,6 +61,9 @@
   <img src="./src/img/readmy/scren-3.webp" alt="background about me"/>
 </div>
 
+#### Адаптация сайта под все экраны
+[adaptive.webm](https://github.com/forgohill/gva-app/assets/105547969/f9d31b0f-7aea-4872-9a27-3613f9136cb6)
+
 
 ---
 # Как запустить запустить приложение Create React.
