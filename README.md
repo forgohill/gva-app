@@ -1,4 +1,4 @@
-#gva-app
+# gva-app
 
 Разработка сайта посуточной аренды. От макета до реализации.\
 Работающий сайт [goodvibesonly.ru](https://goodvibesonly.ru/)
