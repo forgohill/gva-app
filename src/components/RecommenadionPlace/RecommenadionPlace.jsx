@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { sourcePersons } from '../../utils/sourcePersons'
+import { sourcePersons } from '../../utils/sourcePersons';
 import RecommenadionItem from '../RecommenadionItem/RecommenadionItem.jsx';
 import './RecommenadionPlace.css';
 

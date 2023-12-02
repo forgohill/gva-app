@@ -46,10 +46,7 @@ export const sourcePersons = [
   { image: person21, },
   { image: person22, },
   { image: person23, },
-
-
-
-]
+];
 
 
 

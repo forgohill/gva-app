@@ -42,9 +42,7 @@ const RecommenadionItem = ({ recommenadions }) => {
         />
       </div>
       <div>
-        <p
-          className='recommenadion-item__pharagraph'
-        >
+        <p className='recommenadion-item__pharagraph'>
 
           {
             isFullText

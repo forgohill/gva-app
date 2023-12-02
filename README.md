@@ -1,309 +1,107 @@
-# mediatype
-@media screen and (max-width: 1280px) {}
-@media screen and (max-width: 1024px) {}
-@media screen and (max-width: 834px) {}
-@media screen and (max-width: 768px) {}
-@media screen and (max-width: 430px) {}
-@media screen and (max-width: 320px) {}
-
-# fonts
-
-Montserrat
-Regular 400
-SemiBold 600
-Bold 700
-Black 900
-
-NunitoSans
-Regular 400
-
-Nunito
-Regular 400
-SemiBold 600
-
-Ubuntu
-Bold 700
-
-# naming
-
-Green apartment city view
-Marshmallow Studio
-Green point apartment
-Лайнер
-Flora apartment
-Good vibes only apartment
-Happy moments apartment
-Sky river apartment
-Central street apartment
-Nаturе араrtmеnt
-Рink drеаm араrtmеnt
-Muza аpаrtment
-Аrt роint араrtmеnt
-
-green-apartment-city-view
-marshmallow-studio
-green-point-apartment
-liner
-flora-apartment
-good-vibes-only-apartment
-happy-moments-apartment
-sky-river-apartment
-central-street-apartment
-nаturе-араrtmеnt
-pink-drеаm-араrtmеnt
-muza-аpаrtment
-art-роint-араrtmеnt
-
-greenApartmentCityView
-marshmallowStudio
-greenPointApartment
-liner
-floraApartment
-goodVibesOnlyApartment
-happyMomentsApartment
-skyRiverApartment
-centralStreetApartment
-nаturеApartment
-pinkDrеаmApartment
-muzaApаrtment
-artAоintApartment
-
-2900
-2500
-5000
-4000
-6000
-3000
-4500
-2900
-4000
-4000
-5000
-3000
-4000
-
-
-
-
-
-
-Green_apartment_city_view
-Marshmallow_Studio
-Green_point_apartment
-Лайнер
-Flora_apartment
-Good_vibes_only_apartment
-Happy_moments_apartment
-Sky_river_apartment
-Central_street_apartment
-
-  {
-    pathname: 'green-apartment-city-view',
-    name: 'Green apartment city view',
-    amountRoom: '',
-    place: '',
-    floor: '',
-    technics: '',
-    communications: '',
-    comfort: '',
-    deposit: '',
-    amountQuest: '',
-    likeChildren: '',
-    likeAnimals: '',
-    likeSmoke: '',
-    likeParty: '',
-    accountingDocuments: '',
-    adress: '',
-    coordinates: '',
-    description: '',
-    homeInfo: '',
-    parking: '',
-  },
+<!-- 
+Чек-лист для README:
+Заголовок (название проекта).
+Описание: функциональность, стек, ссылки, анимации.
+Инструкция по развёртыванию и системные требования: версия языка, нужные для работы расширения.
+Статус и планы по доработке проекта.
 
+Общий чек-лист по оформлению проектов:
+Откройте репозитории с проектами.
+Пройдите шаги из инструкции по развёртыванию.
+Проверьте, что программы работают правильно, а в конфигах нет опечаток, которые всё ломают.
+Проверьте корректное отображение во всех разрешениях и браузерах, а также скорость загрузки.
+Проверьте, чтобы в коде не было комментариев ревьюера.
+Разместите ссылку на демо сайта в шапку репозитория (если проект в портфолио — сайт).
+ -->
 
-💚Green ASW
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437078/
+<div id="header" align="center">
+  <h1>Приложение <b>goodvibesonly.ru</b></h1>
+</div>
+<div align="center">
+  <img src="./src/img/readmy/scren-1.webp" alt="background about me"/>
+</div>
 
-🤍 Marshmallow Studio
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437077/
+## 🧱 Функционал приложения :
+- Каталог объектов аренды: Удобный каталог с фотографиями, описаниями и отзывами об объектах аренды. Возможность просмотра рейтинга и отзывов об объекте перед принятием решения о бронировании.
+- Интеграция в сайт модуля бронирования сервиса RealtyCalendar, который позволяет напряму совершать бронирвоания через свой сервис.
+- Обратная связь: Контакты для обращения к администрации сайта с вопросами, предложениями или проблемами. Ответственный менеджер оперативно решает возникшие вопросы и проблемы.
 
-💚 Green point
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/
+## 🛠️ Стек и Инструменты :
 
-💙 Liner
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273089/
+<div align="center">
+<img src="./src/img/readmy/html5-plain.svg" style="width: 48px"/>
+<img src="./src/img/readmy/css3-plain.svg" style="width: 48px"/>
+<img src="./src/img/readmy/javascript-plain.svg" style="width: 48px"/>
+<img src="./src/img/readmy/react-original.svg" style="width: 48px"/>
+</div>
 
-🤎 Flora
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273085/
 
+### Технические решения
+---
+#### React Slider Slck
+[📄 документация](https://react-slick.neostack.com/)
+<div align="center">
+  <img src="./src/img/readmy/scren-2.webp" alt="background about me"/>
+</div>
 
-💜 Good vibes only
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/
+---
+#### React Yandex Map
 
-💛 Happy moments apartment
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437082/
+[📄 документация](https://pbe-react-yandex-maps.vercel.app/)
 
 
 
+<div align="center">
+  <img src="./src/img/readmy/scren-4.webp" alt="background about me"/>
+</div>
 
-💙 Sky river apartment
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/
+#### Разработка страниц с галереями объектов
 
-🖤 Central street apartment
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437085/
+<div align="center">
+  <img src="./src/img/readmy/scren-3.webp" alt="background about me"/>
+</div>
 
-🤍 Nature
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aDfpYvJMQdc?si=mFivRroIJwpZOjSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
+# Как запустить запустить приложение Create React.
 
-💖 Pink Dream Apartment
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/
+Этот проект был создан с помощью [Create React App](https://github.com/facebook/create-react-app).
 
-🖤 Muza Apartment
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10677609/
 
-🧡 Art point
-OSTROVOK
-https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10572857/
-==========================================================
+### Доступные скрипты :
 
+В каталоге проекта вы можете запустить:
 
+#### `npm start`
 
+Запускает приложение в режиме разработки.\
+Открыть [http://localhost:3000](http://localhost:3000) чтобы просмотреть его в вашем браузере.
 
-💚Green ASW
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1030617
+Страница перезагрузится, когда вы внесете изменения.\
+Вы также можете увидеть любые ошибки lint в консоли.
+ 
+#### `npm test`
 
-🤍 Marshmallow Studio
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1308731
+Запускает программу тестирования в режиме интерактивного просмотра.\
+Смотрите раздел о [«работа с тестами»](https://facebook.github.io/create-react-app/docs/running-tests) для получения дополнительной информации.
 
-🤎 Flora
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1383187
+#### `npm run build`
 
-💚 Green point
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1411611
+Создает приложение для рабочей среды в папке `build`.\
+Оно корректно объединяет React в рабочем режиме и оптимизирует сборку для достижения наилучшей производительности.
 
-🤍 Nature
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1630085
+Сборка сокращена, а имена файлов содержат хэши.\
+Ваше приложение готово к развертыванию!
 
-💙 Liner
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1408879
-
-💜 Good vibes only
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1385827
-
-🧡 Art point
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1503448
-
-💛 Happy moments apartment
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1411647
-
-💙 Sky river apartment
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1408155
-
-🖤 Central street apartment
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1411553
-
-💖 Pink Dream Apartment
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1630061
-
-🖤 Muza Apartment
-СУТОЧНО.РУ
-https://sutochno.ru/front/searchapp/detail/1592436
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Смотрите раздел о [разработке](https://facebook.github.io/create-react-app/docs/deployment) для получения боль шей информации.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Примечание: это односторонняя операция. Как только вы запустите `eject`, вы не сможете вернуться назад!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Если вас не устраивает инструмент сборки и выбранная конфигурация, вы можете запустить `eject` в любое время. Эта команда удалит единственную зависимость сборки из вашего проекта.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Вместо этого он скопирует все файлы конфигурации и переходные зависимости (webpack, Babel, ESLint и т.д.) прямо в ваш проект, чтобы вы имели полный контроль над ними. Все команды, кроме `eject`, по-прежнему будут работать, но они будут указывать на скопированные скрипты, чтобы вы могли их настроить. На этом этапе вы предоставлены сами себе.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+Вам никогда не придется использовать `eject`. Разработанный набор функций подходит для небольших и средних развертываний, и вы не должны чувствовать себя обязанным использовать эту функцию. Однако мы понимаем, что этот инструмент был бы бесполезен, если бы вы не могли настроить его, когда будете к этому готовы.
