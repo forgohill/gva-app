@@ -1,6 +1,7 @@
 {
   "name": "gva-app",
   "version": "0.1.0",
+  "description": "Разработка сайта посуточной аренды. От макета до реализации. Работающий сайт https://goodvibesonly.ru/",
   "private": true,
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.5",
