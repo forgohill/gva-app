@@ -22,10 +22,10 @@ import './RealtyCalendar.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main.jsx';
 import ApartPage from '../ApartPage/ApartPage';
-import Booking from '../Booking/Booking'
-import AboutUs from '../AboutUs/AboutUs'
-import Gallery from '../Gallery/Gallery'
-import Contacts from '../Contacts/Contacts'
+import Booking from '../Booking/Booking';
+import AboutUs from '../AboutUs/AboutUs';
+import Gallery from '../Gallery/Gallery';
+import Contacts from '../Contacts/Contacts';
 import Sales from '../Sales/Sales.jsx';
 import Place from '../Place/Place.jsx';
 import Requisites from '../Requisites/Requisites.jsx';
@@ -49,8 +49,6 @@ const App = () => {
 
   const handleOpenPopupCallback = () => {
     setIsPopupCallback(!isPopupCallback);
-    // console.log('handleOpenPopupCallback');
-    // console.log(isPopupCallback);
   }
 
   const closePopup = () => {
@@ -77,6 +75,9 @@ const App = () => {
           path='/booking'
           element={<Booking />}
         />
+
+
+
         <Route
           path='/about-us'
           element={<AboutUs />}

@@ -1,12 +1,32 @@
 import React from 'react';
+import Iframe from 'react-iframe';
+
 import { HashLink } from 'react-router-hash-link'
 import './Booking.css';
 import { Helmet } from 'react-helmet-async'
 const Booking = () => {
   return (
     <main className='main'>
+      <Helmet>
+        <title>Забронировать | Good Vibes Апартаменты</title>
+        {/* <script type="text/javascript">RC_SMALL_BOOKINGS_WIDGET.init('18a682d5b6e8dd87c30d92cbf743d596');</script> */}
+      </Helmet>
+
       <section className='booking-module'>
         <h2 className='booking-module__title'>Модуль <span className="booking-module__accent">бронирования</span></h2>
+        <p className='booking-module__pharagraph'>Выберите интересующие даты, и количество гостей. Модуль предложит вам вариант жилья, узнать информацию о&nbsp;свободных датах и&nbsp;стоимости аренды, а&nbsp;также оформить бронь.
+        </p>
+        <div className='booking-module__container-iframe'>
+          <Iframe url="../../../booking.html"
+            width="320px"
+            height="480px"
+            id="realtycalendar-modul"
+            className="booking-module__iframe"
+            display="block"
+            position="relative"
+            scrolling="auto "
+          />
+        </div>
         <p className='booking-module__pharagraph'>
           На&nbsp;нашем сайте мы&nbsp;используем модуль бронирования через сервис <HashLink to="#booking-module__booking-form"
 
@@ -14,8 +34,7 @@ const Booking = () => {
         <p className='booking-module__pharagraph'>
           Данный модуль позволяет пользователям удобно и&nbsp;быстро забронировать наши квартиры для проживания.
         </p>
-        <p className='booking-module__pharagraph'>Выберите интересующие даты, и количество гостей. Модуль предложит вам вариант жилья, узнать информацию о&nbsp;свободных датах и&nbsp;стоимости аренды, а&nbsp;также оформить бронь.
-        </p>
+
         <p className='booking-module__pharagraph'>
           Мы&nbsp;стремимся к&nbsp;тому, чтобы процесс бронирования был максимально простым и&nbsp;удобным для наших клиентов.
         </p>
@@ -24,10 +43,13 @@ const Booking = () => {
         >Внимание!</p>
         <p className='booking-module__pharagraph'>
           Перед бронированием обязательно ознакомьтесь с основными правилами бронирования и проживания!</p>
-        <div className="booking-module__booking-form" >
+
+        {/* <div className="booking-module__booking-form" >
           <div id="rc-small-bookings-widget-root"></div>
-        </div>
+        </div> */}
+
         <div className='booking-module__background-rectangle'></div>
+
         <p className='booking-module__pharagraph booking-module__pharagraph_type_center'>
           Информация о сервисе <a href="https://new.realtycalendar.ru/products/booking-module"
             target='_blank'
@@ -36,10 +58,7 @@ const Booking = () => {
             className="booking-module__inline-link booking-module__inline-link_type_center">RealtyCalendar</a></p>
       </section>
 
-      <Helmet>
-        <title>Забронировать | Good Vibes Апартаменты</title>
-        <script type="text/javascript">RC_SMALL_BOOKINGS_WIDGET.init('18a682d5b6e8dd87c30d92cbf743d596');</script>
-      </Helmet>
+
     </main >
   );
 }

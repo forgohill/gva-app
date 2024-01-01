@@ -136,6 +136,21 @@
   font-size: 16px;
 }
 
+.booking-module__container-iframe {
+  max-width: 100%;
+  display: flex;
+}
+
+.booking-module__iframe {
+  width: 1250px;
+  height: 1250px;
+
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1280px) {
   .booking-module {
     padding: 0 98px;
