@@ -28,24 +28,12 @@ const ApartPage = () => {
 
   return (
     <main className='main'>
-      {/* 
-      <button
-        onClick={() => {
-          console.log(pathname.slice(11));
-          console.log(pathnameSlice);
-          console.log(insertApart);
-          console.log(isApartAccess);
-        }}>pathname</button> */}
-
       {isApartAccess
         ? <Apart
           insertApart={insertApart}
         ></Apart>
         : <PageNotFoundApart></PageNotFoundApart>}
-
     </main >
-
-
   );
 }
 

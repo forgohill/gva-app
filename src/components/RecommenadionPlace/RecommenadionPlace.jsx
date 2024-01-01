@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { sourcePersons } from '../../utils/sourcePersons';
 import RecommenadionItem from '../RecommenadionItem/RecommenadionItem.jsx';
 import './RecommenadionPlace.css';
 
 const RecommenadionPlace = ({ slide }) => {
-
 
   const [currenGallery, setCurrenGallery] = useState([{
     key: 'none',
@@ -34,12 +32,6 @@ const RecommenadionPlace = ({ slide }) => {
 
   return (
     <article className='recommendations__space recommenadion-place'>
-      {/* <button onClick={() => {
-        console.log(slide);
-      }}>
-        {slide.name}
-      </button> */}
-
       <div
         className='recommenadion-place__place-info'
       >
@@ -65,14 +57,9 @@ const RecommenadionPlace = ({ slide }) => {
             <h2
               className='recommenadion-place__title'
             >{slide.name}</h2>
-            {/* <h3
-              className='recommenadion-place__subtitle'
-            >{slide.shortAdress}</h3> */}
           </Link>
         </div>
-
       </div>
-
       <ul
         className='recommenadion-place__list'>
         {renderRecommenadionItem}

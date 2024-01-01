@@ -1,48 +1,49 @@
 import greenApartmentCityViewSlide from '../img/slider-main/green-apartment-city-view.jpg';
 import marshmallowStudioSlide from '../img/slider-main/marshmallow-studio.jpg';
-import greenPointApartmentSlide from '../img/slider-main/green-point-apartment.jpg';
+// import greenPointApartmentSlide from '../img/slider-main/green-point-apartment.jpg';
 import linerSlide from '../img/slider-main/liner.jpg';
 import floraApartmentSlide from '../img/slider-main/flora-apartment.jpg';
 import goodVibesOnlyApartmentSlide from '../img/slider-main/good-vibes-only-apartment.jpg';
-import happyMomentsApartmentSlide from '../img/slider-main/happy-moments-apartment.jpg';
-import skyRiverApartmentSlide from '../img/slider-main/sky-river-apartment.jpg';
+// import happyMomentsApartmentSlide from '../img/slider-main/happy-moments-apartment.jpg';
+// import skyRiverApartmentSlide from '../img/slider-main/sky-river-apartment.jpg';
 import centralStreetApartmentSlide from '../img/slider-main/central-street-apartment.jpg';
-import nаturеApartmentSlide from '../img/slider-main/nаturе-араrtmеnt.jpg';
-import pinkDrеаmApartmentSlide from '../img/slider-main/pink-drеаm-араrtmеnt.jpg';
+// import nаturеApartmentSlide from '../img/slider-main/nаturе-араrtmеnt.jpg';
+// import pinkDrеаmApartmentSlide from '../img/slider-main/pink-drеаm-араrtmеnt.jpg';
 import muzaApаrtmentSlide from '../img/slider-main/muza-аpаrtment.jpg';
 import artAоintApartmentSlide from '../img/slider-main/art-роint-араrtmеnt.jpg';
 
 import { greenApartmentCityView } from "./apartSourceImg/green-apartment-city-view";
 import { marshmallowStudio } from "./apartSourceImg/marshmallow-studio";
-import { greenPointApartment } from "./apartSourceImg/green-point-apartment";
+// import { greenPointApartment } from "./apartSourceImg/green-point-apartment";
 import { liner } from "./apartSourceImg/liner.js";
 import { floraApartment } from "./apartSourceImg/floraApartment";
 import { goodVibesOnlyApartment } from "./apartSourceImg/good-vibes-only-apartment";
-import { happyMomentsApartment } from "./apartSourceImg/happy-moments-apartment";
-import { skyRiverApartment } from "./apartSourceImg/sky-river-apartment";
+// import { happyMomentsApartment } from "./apartSourceImg/happy-moments-apartment";
+// import { skyRiverApartment } from "./apartSourceImg/sky-river-apartment";
 import { centralStreetApartment } from "./apartSourceImg/central-street-apartment";
-import { nаturеApartment } from "./apartSourceImg/nature-apartment";
-import { pinkDrеаmApartment } from "./apartSourceImg/pink-drеаm-араrtmеnt";
+// import { nаturеApartment } from "./apartSourceImg/nature-apartment";
+// import { pinkDrеаmApartment } from "./apartSourceImg/pink-drеаm-араrtmеnt";
 import { muzaApаrtment } from "./apartSourceImg/muza-аpаrtment";
 import { artPоintApartment } from "./apartSourceImg/art-роint-араrtmеnt";
 
 import { greenApartmentCityViewRecommendations } from "./apartSourceRecommendations/green-apartment-city-view";
 import { marshmallowStudioRecommendations } from "./apartSourceRecommendations/marshmallow-studio";
-import { greenPointApartmentRecommendations } from "./apartSourceRecommendations/green-point-apartment";
+// import { greenPointApartmentRecommendations } from "./apartSourceRecommendations/green-point-apartment";
 import { linerRecommendations } from "./apartSourceRecommendations/liner";
 import { floraApartmentRecommendations } from "./apartSourceRecommendations/floraApartment";
 import { goodVibesOnlyApartmentRecommendations } from "./apartSourceRecommendations/good-vibes-only-apartment";
-import { happyMomentsApartmentRecommendations } from "./apartSourceRecommendations/happy-moments-apartment";
-import { skyRiverApartmentRecommendations } from "./apartSourceRecommendations/sky-river-apartment";
+// import { happyMomentsApartmentRecommendations } from "./apartSourceRecommendations/happy-moments-apartment";
+// import { skyRiverApartmentRecommendations } from "./apartSourceRecommendations/sky-river-apartment";
 import { centralStreetApartmentRecommendations } from "./apartSourceRecommendations/central-street-apartment";
-import { nаturеApartmentRecommendations } from "./apartSourceRecommendations/nature-apartment";
-import { pinkDrеаmApartmentRecommendations } from "./apartSourceRecommendations/pink-drеаm-араrtmеnt";
+// import { nаturеApartmentRecommendations } from "./apartSourceRecommendations/nature-apartment";
+// import { pinkDrеаmApartmentRecommendations } from "./apartSourceRecommendations/pink-drеаm-араrtmеnt";
 import { muzaApаrtmentRecommendations } from "./apartSourceRecommendations/muza-аpаrtment";
 import { artPоintApartmentRecommendations } from "./apartSourceRecommendations/art-роint-араrtmеnt";
 
 
 
 export const apartmentsPage = [
+  // Green apartment city view
   {
     lot: '122233',
     pathname: 'green-apartment-city-view',
@@ -69,6 +70,7 @@ export const apartmentsPage = [
     homeInfo: '14',
     parking: 'на улице, бесплатно для гостей',
   },
+  // Marshmallow Studio
   {
     lot: '122231',
     pathname: 'marshmallow-studio',
@@ -95,32 +97,34 @@ export const apartmentsPage = [
     homeInfo: '14',
     parking: 'на улице, бесплатно для гостей',
   },
-  {
-    lot: '122229',
-    pathname: 'green-point-apartment',
-    name: 'Green point apartment',
-    amountRoom: '1',
-    place: '42 м²',
-    floor: '3 из 25',
-    balcony: 'балкон',
-    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, посудомоечная машина, водонагреватель, телевизор, фен, утюг',
-    communications: 'Wi-Fi, телевидение',
-    comfort: 'постельное белье, полотенца, средства гигиены',
-    deposit: '3000 ₽',
-    amountQuest: '4',
-    likeChildren: 'да',
-    likeAnimals: 'нет',
-    likeSmoke: 'да',
-    likeParty: 'нет',
-    accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25',
-    shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42 м², 3/25 эт.',
-    coordinatesX: 56.318266,
-    coordinatesY: 44.039754,
-    homeInfo: '25',
-    parking: 'на улице, бесплатно для гостей',
-  },
+  // Green point apartment
+  // {
+  //   lot: '122229',
+  //   pathname: 'green-point-apartment',
+  //   name: 'Green point apartment',
+  //   amountRoom: '1',
+  //   place: '42 м²',
+  //   floor: '3 из 25',
+  //   balcony: 'балкон',
+  //   technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, посудомоечная машина, водонагреватель, телевизор, фен, утюг',
+  //   communications: 'Wi-Fi, телевидение',
+  //   comfort: 'постельное белье, полотенца, средства гигиены',
+  //   deposit: '3000 ₽',
+  //   amountQuest: '4',
+  //   likeChildren: 'да',
+  //   likeAnimals: 'нет',
+  //   likeSmoke: 'да',
+  //   likeParty: 'нет',
+  //   accountingDocuments: 'да',
+  //   adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25',
+  //   shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42 м², 3/25 эт.',
+  //   coordinatesX: 56.318266,
+  //   coordinatesY: 44.039754,
+  //   homeInfo: '25',
+  //   parking: 'на улице, бесплатно для гостей',
+  // },
+  // Лайнер
   {
     lot: '122230',
     pathname: 'liner',
@@ -147,6 +151,7 @@ export const apartmentsPage = [
     homeInfo: '11',
     parking: 'на улице, бесплатно для гостей',
   },
+  // Flora apartment
   {
     lot: '122241',
     pathname: 'flora-apartment',
@@ -173,6 +178,7 @@ export const apartmentsPage = [
     homeInfo: '6',
     parking: 'на улице, бесплатно для гостей',
   },
+  // Good vibes only apartment
   {
     lot: '122242',
     pathname: 'good-vibes-only-apartment',
@@ -199,58 +205,61 @@ export const apartmentsPage = [
     homeInfo: '19',
     parking: 'на улице, бесплатно для гостей',
   },
-  {
-    lot: '122244',
-    pathname: 'happy-moments-apartment',
-    name: 'Happy moments apartment',
-    amountRoom: '1',
-    place: '45 м²',
-    floor: '4 из 14',
-    balcony: 'балкон',
-    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
-    communications: 'Wi-Fi, телевидение',
-    comfort: 'постельное белье, полотенца, средства гигиены',
-    deposit: '3000 ₽',
-    amountQuest: '4',
-    likeChildren: 'да',
-    likeAnimals: 'нет',
-    likeSmoke: 'нет',
-    likeParty: 'нет',
-    accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, ул. Генкиной, 25А',
-    shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
-    shortInfo: '1-к. квартира, 45 м², 4/14 эт.',
-    coordinatesX: 56.310632,
-    coordinatesY: 44.011098,
-    homeInfo: '14',
-    parking: 'на улице, бесплатно для гостей',
-  },
-  {
-    lot: '122243',
-    pathname: 'sky-river-apartment',
-    name: 'Sky river apartment',
-    amountRoom: '1',
-    place: '42 м²',
-    floor: '11 из 17',
-    balcony: 'балкон',
-    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, посудомоечная машина, водонагреватель, телевизор, фен, утю',
-    communications: 'Wi-Fi, телевидение',
-    comfort: 'постельное белье, полотенца, средства гигиены',
-    deposit: '3000 ₽',
-    amountQuest: '4',
-    likeChildren: 'да',
-    likeAnimals: 'нет',
-    likeSmoke: 'нет',
-    likeParty: 'нет',
-    accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, ул. Родионова, 202/1',
-    shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42 м², 11/17 эт.',
-    coordinatesX: 56.299451,
-    coordinatesY: 44.088389,
-    homeInfo: '17',
-    parking: 'на улице, бесплатно для гостей',
-  },
+  // Happy moments apartment
+  // {
+  //   lot: '122244',
+  //   pathname: 'happy-moments-apartment',
+  //   name: 'Happy moments apartment',
+  //   amountRoom: '1',
+  //   place: '45 м²',
+  //   floor: '4 из 14',
+  //   balcony: 'балкон',
+  //   technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
+  //   communications: 'Wi-Fi, телевидение',
+  //   comfort: 'постельное белье, полотенца, средства гигиены',
+  //   deposit: '3000 ₽',
+  //   amountQuest: '4',
+  //   likeChildren: 'да',
+  //   likeAnimals: 'нет',
+  //   likeSmoke: 'нет',
+  //   likeParty: 'нет',
+  //   accountingDocuments: 'да',
+  //   adress: 'Нижегородская область, Нижний Новгород, ул. Генкиной, 25А',
+  //   shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 45 м², 4/14 эт.',
+  //   coordinatesX: 56.310632,
+  //   coordinatesY: 44.011098,
+  //   homeInfo: '14',
+  //   parking: 'на улице, бесплатно для гостей',
+  // },
+  // Sky river apartment
+  // {
+  //   lot: '122243',
+  //   pathname: 'sky-river-apartment',
+  //   name: 'Sky river apartment',
+  //   amountRoom: '1',
+  //   place: '42 м²',
+  //   floor: '11 из 17',
+  //   balcony: 'балкон',
+  //   technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, посудомоечная машина, водонагреватель, телевизор, фен, утю',
+  //   communications: 'Wi-Fi, телевидение',
+  //   comfort: 'постельное белье, полотенца, средства гигиены',
+  //   deposit: '3000 ₽',
+  //   amountQuest: '4',
+  //   likeChildren: 'да',
+  //   likeAnimals: 'нет',
+  //   likeSmoke: 'нет',
+  //   likeParty: 'нет',
+  //   accountingDocuments: 'да',
+  //   adress: 'Нижегородская область, Нижний Новгород, ул. Родионова, 202/1',
+  //   shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42 м², 11/17 эт.',
+  //   coordinatesX: 56.299451,
+  //   coordinatesY: 44.088389,
+  //   homeInfo: '17',
+  //   parking: 'на улице, бесплатно для гостей',
+  // },
+  // Central street apartment
   {
     lot: '122239',
     pathname: 'central-street-apartment',
@@ -277,58 +286,61 @@ export const apartmentsPage = [
     homeInfo: '6',
     parking: 'на улице, бесплатно для гостей',
   },
-  {
-    lot: '158315',
-    pathname: 'nature-apartment',
-    name: 'Nаturе араrtmеnt',
-    amountRoom: '1',
-    place: '38 м²',
-    floor: '6 из 25',
-    balcony: 'балкон',
-    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
-    communications: 'Wi-Fi, телевидение',
-    comfort: 'постельное белье, полотенца, средства гигиены',
-    deposit: '3000 ₽',
-    amountQuest: '4',
-    likeChildren: 'да',
-    likeAnimals: 'нет',
-    likeSmoke: 'нет',
-    likeParty: 'нет',
-    accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25к1',
-    shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
-    shortInfo: '1-к. квартира, 38 м², 6/25 эт.',
-    coordinatesX: 56.317537,
-    coordinatesY: 44.039314,
-    homeInfo: '25',
-    parking: 'на улице, бесплатно для гостей',
-  },
-  {
-    lot: '158314',
-    pathname: 'pink-dream-apartment',
-    name: 'Рink drеаm араrtmеnt',
-    amountRoom: '1',
-    place: '42 м²',
-    floor: '17 из 19',
-    balcony: 'балкон',
-    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
-    communications: 'Wi-Fi, телевидение',
-    comfort: 'постельное белье, полотенца, средства гигиены',
-    deposit: '3000 ₽',
-    amountQuest: '4',
-    likeChildren: 'да',
-    likeAnimals: 'нет',
-    likeSmoke: 'нет',
-    likeParty: 'нет',
-    accountingDocuments: 'да',
-    adress: 'Нижегородская область, Нижний Новгород, ул. Семашко, 28',
-    shortAdress: 'ул. Семашко, 28, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42 м², 17/19 эт.',
-    coordinatesX: 56.321032,
-    coordinatesY: 44.017934,
-    homeInfo: '19',
-    parking: 'на улице, бесплатно для гостей',
-  },
+  // Nаturе араrtmеnt
+  // {
+  //   lot: '158315',
+  //   pathname: 'nature-apartment',
+  //   name: 'Nаturе араrtmеnt',
+  //   amountRoom: '1',
+  //   place: '38 м²',
+  //   floor: '6 из 25',
+  //   balcony: 'балкон',
+  //   technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
+  //   communications: 'Wi-Fi, телевидение',
+  //   comfort: 'постельное белье, полотенца, средства гигиены',
+  //   deposit: '3000 ₽',
+  //   amountQuest: '4',
+  //   likeChildren: 'да',
+  //   likeAnimals: 'нет',
+  //   likeSmoke: 'нет',
+  //   likeParty: 'нет',
+  //   accountingDocuments: 'да',
+  //   adress: 'Нижегородская область, Нижний Новгород, ул. Тургенева, 25к1',
+  //   shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 38 м², 6/25 эт.',
+  //   coordinatesX: 56.317537,
+  //   coordinatesY: 44.039314,
+  //   homeInfo: '25',
+  //   parking: 'на улице, бесплатно для гостей',
+  // },
+  // Рink drеаm араrtmеnt
+  // {
+  //   lot: '158314',
+  //   pathname: 'pink-dream-apartment',
+  //   name: 'Рink drеаm араrtmеnt',
+  //   amountRoom: '1',
+  //   place: '42 м²',
+  //   floor: '17 из 19',
+  //   balcony: 'балкон',
+  //   technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, водонагреватель, телевизор, фен, утюг',
+  //   communications: 'Wi-Fi, телевидение',
+  //   comfort: 'постельное белье, полотенца, средства гигиены',
+  //   deposit: '3000 ₽',
+  //   amountQuest: '4',
+  //   likeChildren: 'да',
+  //   likeAnimals: 'нет',
+  //   likeSmoke: 'нет',
+  //   likeParty: 'нет',
+  //   accountingDocuments: 'да',
+  //   adress: 'Нижегородская область, Нижний Новгород, ул. Семашко, 28',
+  //   shortAdress: 'ул. Семашко, 28, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42 м², 17/19 эт.',
+  //   coordinatesX: 56.321032,
+  //   coordinatesY: 44.017934,
+  //   homeInfo: '19',
+  //   parking: 'на улице, бесплатно для гостей',
+  // },
+  // Muza аpаrtment
   {
     lot: '149983',
     pathname: 'muza-apartment',
@@ -355,6 +367,7 @@ export const apartmentsPage = [
     homeInfo: '19',
     parking: 'на улице, бесплатно для гостей',
   },
+  // Аrt роint араrtmеnt
   {
     lot: '136044',
     pathname: 'art-point-apartment',
@@ -384,6 +397,7 @@ export const apartmentsPage = [
 ];
 
 export const slidesMain = [
+  // Green apartment city view
   {
     name: 'Green apartment city view',
     slide: greenApartmentCityViewSlide,
@@ -397,6 +411,7 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1030617',
     recommendations: greenApartmentCityViewRecommendations,
   },
+  // Marshmallow Studio
   {
     name: 'Marshmallow Studio',
     slide: marshmallowStudioSlide,
@@ -410,19 +425,21 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1308731',
     recommendations: marshmallowStudioRecommendations,
   },
-  {
-    name: 'Green point apartment',
-    slide: greenPointApartmentSlide,
-    lot: '122229',
-    endpoint: 'green-point-apartment',
-    price: 'от 5 000 р/сут',
-    shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42м², 3/25 эт.',
-    galleryApartSlider: greenPointApartment,
-    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/',
-    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411611',
-    recommendations: greenPointApartmentRecommendations,
-  },
+  // Green point apartment
+  // {
+  //   name: 'Green point apartment',
+  //   slide: greenPointApartmentSlide,
+  //   lot: '122229',
+  //   endpoint: 'green-point-apartment',
+  //   price: 'от 5 000 р/сут',
+  //   shortAdress: 'ул. Тургенева, 25, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42м², 3/25 эт.',
+  //   galleryApartSlider: greenPointApartment,
+  //   ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/',
+  //   sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411611',
+  //   recommendations: greenPointApartmentRecommendations,
+  // },
+  // Лайнер
   {
     name: 'Лайнер',
     slide: linerSlide,
@@ -436,6 +453,7 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408879',
     recommendations: linerRecommendations,
   },
+  // Flora apartment
   {
     name: 'Flora apartment',
     slide: floraApartmentSlide,
@@ -449,6 +467,7 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1383187',
     recommendations: floraApartmentRecommendations,
   },
+  // Good vibes only apartment
   {
     name: 'Good vibes only apartment',
     slide: goodVibesOnlyApartmentSlide,
@@ -462,32 +481,35 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1385827',
     recommendations: goodVibesOnlyApartmentRecommendations,
   },
-  {
-    name: 'Happy moments apartment',
-    slide: happyMomentsApartmentSlide,
-    lot: '122244',
-    endpoint: 'happy-moments-apartment',
-    price: 'от 4 500 р/сут',
-    shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
-    shortInfo: '1-к. квартира, 45м², 4/14 эт.',
-    galleryApartSlider: happyMomentsApartment,
-    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
-    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411647',
-    recommendations: happyMomentsApartmentRecommendations,
-  },
-  {
-    name: 'Sky river apartment',
-    slide: skyRiverApartmentSlide,
-    lot: '122243',
-    endpoint: 'sky-river-apartment',
-    price: 'от 2 900 р/сут',
-    shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42м², 11/17 эт.',
-    galleryApartSlider: skyRiverApartment,
-    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/',
-    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408155',
-    recommendations: skyRiverApartmentRecommendations,
-  },
+  // Happy moments apartment
+  // {
+  //   name: 'Happy moments apartment',
+  //   slide: happyMomentsApartmentSlide,
+  //   lot: '122244',
+  //   endpoint: 'happy-moments-apartment',
+  //   price: 'от 4 500 р/сут',
+  //   shortAdress: 'ул. Генкиной, 25А, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 45м², 4/14 эт.',
+  //   galleryApartSlider: happyMomentsApartment,
+  //   ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
+  //   sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411647',
+  //   recommendations: happyMomentsApartmentRecommendations,
+  // },
+  // Sky river apartment
+  // {
+  //   name: 'Sky river apartment',
+  //   slide: skyRiverApartmentSlide,
+  //   lot: '122243',
+  //   endpoint: 'sky-river-apartment',
+  //   price: 'от 2 900 р/сут',
+  //   shortAdress: 'ул. Родионова, 202/1, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42м², 11/17 эт.',
+  //   galleryApartSlider: skyRiverApartment,
+  //   ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/',
+  //   sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408155',
+  //   recommendations: skyRiverApartmentRecommendations,
+  // },
+  // Central street apartment
   {
     name: 'Central street apartment',
     slide: centralStreetApartmentSlide,
@@ -501,32 +523,35 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411553',
     recommendations: centralStreetApartmentRecommendations,
   },
-  {
-    name: 'Nаturе араrtmеnt',
-    slide: nаturеApartmentSlide,
-    lot: '158315',
-    endpoint: 'nature-apartment',
-    price: 'от 4 000 р/сут',
-    shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
-    shortInfo: '1-к. квартира, 38м², 6/25 эт.',
-    galleryApartSlider: nаturеApartment,
-    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/',
-    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630085',
-    recommendations: nаturеApartmentRecommendations,
-  },
-  {
-    name: 'Рink drеаm араrtmеnt',
-    slide: pinkDrеаmApartmentSlide,
-    lot: '158314',
-    endpoint: 'pink-dream-apartment',
-    price: 'от 5 000 р/сут',
-    shortAdress: 'ул. Семашко, 28, Нижний Новгород',
-    shortInfo: '1-к. квартира, 42м², 17/19 эт.',
-    galleryApartSlider: pinkDrеаmApartment,
-    ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/',
-    sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630061',
-    recommendations: pinkDrеаmApartmentRecommendations,
-  },
+  // Nаturе араrtmеnt
+  // {
+  //   name: 'Nаturе араrtmеnt',
+  //   slide: nаturеApartmentSlide,
+  //   lot: '158315',
+  //   endpoint: 'nature-apartment',
+  //   price: 'от 4 000 р/сут',
+  //   shortAdress: 'ул. Тургенева, 25к1, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 38м², 6/25 эт.',
+  //   galleryApartSlider: nаturеApartment,
+  //   ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/',
+  //   sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630085',
+  //   recommendations: nаturеApartmentRecommendations,
+  // },
+  // Рink drеаm араrtmеnt
+  // {
+  //   name: 'Рink drеаm араrtmеnt',
+  //   slide: pinkDrеаmApartmentSlide,
+  //   lot: '158314',
+  //   endpoint: 'pink-dream-apartment',
+  //   price: 'от 5 000 р/сут',
+  //   shortAdress: 'ул. Семашко, 28, Нижний Новгород',
+  //   shortInfo: '1-к. квартира, 42м², 17/19 эт.',
+  //   galleryApartSlider: pinkDrеаmApartment,
+  //   ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/',
+  //   sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630061',
+  //   recommendations: pinkDrеаmApartmentRecommendations,
+  // },
+  // Muza аpаrtment
   {
     name: 'Muza аpаrtment',
     slide: muzaApаrtmentSlide,
@@ -540,6 +565,7 @@ export const slidesMain = [
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1592436',
     recommendations: muzaApаrtmentRecommendations,
   },
+  // Аrt роint араrtmеnt
   {
     name: 'Аrt роint араrtmеnt',
     slide: artAоintApartmentSlide,

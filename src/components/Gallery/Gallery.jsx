@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import Apartments from '../Apartments/Apartments.jsx';
 import './Gallery.css';

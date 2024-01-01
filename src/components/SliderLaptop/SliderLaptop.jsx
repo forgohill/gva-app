@@ -11,12 +11,8 @@ import SlideLaptop from '../SlideLaptop/SlideLaptop.jsx';
 import { galleryApart } from '../../utils/galleryApart';
 
 const SliderLaptop = ({ currentPathname }) => {
-
-  // window.onscroll = () => { window.scroll(0, 0); };
-
   const [currentGallery, setCurrentGallery] = useState([]);
   const [isFullScreenImage, setIsFullScreenImage] = useState(false);
-  // const [isFullScreenImageLaptop, setIsFullScreenImageLaptop] = useState(false);
   const [currentGalleryApart, setCurrentGalleryApart] = useState([{
     key: '1',
     image: '1',
@@ -27,8 +23,6 @@ const SliderLaptop = ({ currentPathname }) => {
       image: '1',
     }
   );
-
-
 
   const handleClickImage = (e) => {
     setIsFullScreenImage(!isFullScreenImage);

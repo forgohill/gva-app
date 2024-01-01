@@ -142,7 +142,6 @@ const Apart = ({ insertApart }) => {
             ''
           }
 
-
           {/* ОПИСАНИЕ ЛЕПТОП */}
           {relationWidht <= 1023 ?
             <>
@@ -277,10 +276,6 @@ const Apart = ({ insertApart }) => {
 
             </>
           }
-
-
-
-
 
           {relationWidht <= 1023 ? '' :
             <>

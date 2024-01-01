@@ -18,7 +18,6 @@ const SliderMain = () => {
     if (!time) {
       time = setTimeout(() => {
         time = null;
-        // handleResize();
         setRelationWidht(window.innerWidth);
       }, 1);
     };
@@ -40,15 +39,12 @@ const SliderMain = () => {
   useEffect(() => {
     if (relationWidht <= 1280 && relationWidht > 600) {
       setIsBreakpoint(1280);
-      // console.log(isBreakpoint);
     } else {
       if (relationWidht <= 936 && relationWidht > 612) {
         setIsBreakpoint(936);
-        // console.log(isBreakpoint);
       } else {
         if (relationWidht <= 612 && relationWidht > 0) {
           setIsBreakpoint(612);
-          // console.log(isBreakpoint);
         }
       }
     }
@@ -60,6 +56,8 @@ const SliderMain = () => {
         key={slide.lot}
         card={slide}
         relationWidht={relationWidht}
+        // isBreakpoint — не обязателен
+        isBreakpoint={isBreakpoint}
       />
     )
   });
@@ -71,7 +69,6 @@ const SliderMain = () => {
     slidesToShow: 4,
     slidesToScroll: 2,
     autoplay: true,
-    speed: 500,
     autoplaySpeed: 8000,
     cssEase: "linear",
     pauseOnHover: true,

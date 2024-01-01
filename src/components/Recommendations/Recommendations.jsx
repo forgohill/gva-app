@@ -1,21 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Recommendations.css';
 import { slidesMain } from '../../utils/constantsSource';
 import RecommenadionPlace from '../RecommenadionPlace/RecommenadionPlace.jsx';
 const Recommendations = () => {
 
-
   const renderRecommenadionPlace = slidesMain.map((slide) => {
-
-
     return <RecommenadionPlace
       key={slide.lot}
       slide={slide}
     />
   });
-
-
 
   return (
     <main className='main'>

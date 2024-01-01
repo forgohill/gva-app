@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SlideMoreApart from '../SlideMoreApart/SlideMoreApart';
 
 import { slidesMain } from '../../utils/constantsSource'
 
 import './Place.css'
 import {
-  // Routes,
-  // Route,
   useLocation,
 } from 'react-router-dom';
 
