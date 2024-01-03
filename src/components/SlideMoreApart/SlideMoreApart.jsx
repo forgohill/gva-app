@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './SlideMoreApart.css';
 
-const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno }) => {
+const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno, placeFlatsharing }) => {
   const [currenGallery, setCurrenGallery] = useState([{
     key: 'none',
     image: 'none',
@@ -23,20 +23,12 @@ const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno }) => {
   return (
     <li
       className='more-apartment-desktop__item slide-more-apart'>
-      <Link
-        target={placeOstrovok || placeSutochno ? '_blank' : '_self'}
+      {placeOstrovok && <Link
+        target='_blank'
         rel='noreferrer'
-        to={
-          placeOstrovok
-            ?
-            `${slide.ostrovokru}`
-            : `${placeSutochno ?
-              `${slide.sutocnoru}`
-              : `${`/apartment/${slide.endpoint}`}`
-            }`
-        }
-        className='slide-more-apart__link'>
-
+        to={slide.ostrovokru}
+        className='slide-more-apart__link'
+      >
         <div
           className='slide-more-apart__image-wrapper'
         >
@@ -47,10 +39,44 @@ const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno }) => {
         <p
           className='slide-more-apart__subtitle'
         >{slide.shortInfo}</p>
-        {/* <p
+      </Link>}
+
+      {placeSutochno && <Link
+        target='_blank'
+        rel='noreferrer'
+        to={slide.sutocnoru}
+        className='slide-more-apart__link'
+      >
+        <div
+          className='slide-more-apart__image-wrapper'
+        >
+          <img
+            className='slide-more-apart__image'
+            src={firstElementGallery.image} alt="" />
+        </div>
+        <p
           className='slide-more-apart__subtitle'
-        >{slide.name}</p> */}
-      </Link >
+        >{slide.shortInfo}</p>
+      </Link>}
+
+      {placeFlatsharing && <Link
+        target='_blank'
+        rel='noreferrer'
+        to={slide.flatsharing}
+        className='slide-more-apart__link'
+      >
+        <div
+          className='slide-more-apart__image-wrapper'
+        >
+          <img
+            className='slide-more-apart__image'
+            src={firstElementGallery.image} alt="" />
+        </div>
+        <p
+          className='slide-more-apart__subtitle'
+        >{slide.shortInfo}</p>
+      </Link>}
+
       <p
         className='slide-more-apart__paragraph'
       >{slide.price}</p>

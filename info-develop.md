@@ -165,7 +165,6 @@ https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437085/
 OSTROVOK
 https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/
 
-
 💖 Pink Dream Apartment
 OSTROVOK
 https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/
@@ -177,6 +176,10 @@ https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10677609/
 🧡 Art point
 OSTROVOK
 https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10572857/
+
+
+
+
 
 💚Green ASW
 СУТОЧНО.РУ
@@ -230,3 +233,57 @@ https://sutochno.ru/front/searchapp/detail/1630061
 СУТОЧНО.РУ
 https://sutochno.ru/front/searchapp/detail/1592436
 
+
+
+
+💚Green ASW
+Flatsharing
+https://web.flatsharing.mobi/apartments/drvODwbYoQVRHIep4UFN
+
+🤍 Marshmallow Studio
+Flatsharing
+https://web.flatsharing.mobi/apartments/EQ3ZZExBk0P4mMsSgsug
+
+🤎 Flora
+Flatsharing
+https://web.flatsharing.mobi/apartments/QpJewQBkZDHe1vxhJxUa
+
+💚 Green point
+Flatsharing
+https://web.flatsharing.mobi/apartments/D0Md6MKKFlP7VUspPXET
+
+🤍 Nature
+Flatsharing
+https://web.flatsharing.mobi/apartments/02VFGrb22uL0aKZYo0G4
+
+💙 Liner
+Flatsharing
+https://web.flatsharing.mobi/apartments/Tqs4yRIwpd77AF9cCDpU
+
+💜 Good vibes only
+Flatsharing
+https://web.flatsharing.mobi/apartments/bmU09FobGWNYbQMCABWf
+
+🧡 Art point
+Flatsharing
+https://web.flatsharing.mobi/apartments/c8hTNCBRvLwqnMp68wGN
+
+💛 Happy moments apartment
+Flatsharing
+https://web.flatsharing.mobi/apartments/ectMP34htEaASrhh0Fv5
+
+💙 Sky river apartment
+Flatsharing
+https://web.flatsharing.mobi/apartments/HGVgJeKf3eI9NntcCYbo
+
+🖤 Central street apartment
+Flatsharing
+https://web.flatsharing.mobi/apartments/TfNIqAZGxesoitFDNG6T
+
+💖 Pink Dream Apartment
+Flatsharing
+https://web.flatsharing.mobi/apartments/tSkMVGZViyGUxGAyJ3n4
+
+🖤 Muza Apartment
+Flatsharing
+https://web.flatsharing.mobi/apartments/X2dqnPPCEQXQB8V3hOcu

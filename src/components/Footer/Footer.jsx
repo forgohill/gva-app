@@ -66,7 +66,13 @@ const Footer = () => {
                 Суточно.ру
               </Link>
             </li>
-
+            <li className="footer__item">
+              <Link
+                to="/place/flatsharing"
+                className="footer__link">
+                Flatsharing
+              </Link>
+            </li>
           </ul>
         </li>
 

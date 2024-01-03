@@ -409,6 +409,7 @@ export const slidesMain = [
     galleryApartSlider: greenApartmentCityView,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437078/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1030617',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/drvODwbYoQVRHIep4UFN',
     recommendations: greenApartmentCityViewRecommendations,
   },
   // Marshmallow Studio
@@ -423,6 +424,7 @@ export const slidesMain = [
     galleryApartSlider: marshmallowStudio,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437077/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1308731',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/EQ3ZZExBk0P4mMsSgsug',
     recommendations: marshmallowStudioRecommendations,
   },
   // Green point apartment
@@ -437,6 +439,7 @@ export const slidesMain = [
     galleryApartSlider: greenPointApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437084/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411611',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/D0Md6MKKFlP7VUspPXET',
     recommendations: greenPointApartmentRecommendations,
   },
   // Лайнер
@@ -451,6 +454,7 @@ export const slidesMain = [
     galleryApartSlider: liner,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273089/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408879',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/Tqs4yRIwpd77AF9cCDpU',
     recommendations: linerRecommendations,
   },
   // Flora apartment
@@ -465,6 +469,7 @@ export const slidesMain = [
     galleryApartSlider: floraApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273085/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1383187',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/QpJewQBkZDHe1vxhJxUa',
     recommendations: floraApartmentRecommendations,
   },
   // Good vibes only apartment
@@ -479,6 +484,7 @@ export const slidesMain = [
     galleryApartSlider: goodVibesOnlyApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1385827',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/bmU09FobGWNYbQMCABWf',
     recommendations: goodVibesOnlyApartmentRecommendations,
   },
   // Happy moments apartment
@@ -493,6 +499,7 @@ export const slidesMain = [
     galleryApartSlider: happyMomentsApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10273086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411647',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/ectMP34htEaASrhh0Fv5',
     recommendations: happyMomentsApartmentRecommendations,
   },
   // Sky river apartment
@@ -507,6 +514,7 @@ export const slidesMain = [
     galleryApartSlider: skyRiverApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437086/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1408155',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/HGVgJeKf3eI9NntcCYbo',
     recommendations: skyRiverApartmentRecommendations,
   },
   // Central street apartment
@@ -521,6 +529,7 @@ export const slidesMain = [
     galleryApartSlider: centralStreetApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10437085/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1411553',
+    flatsharing: '',
     recommendations: centralStreetApartmentRecommendations,
   },
   // Nаturе араrtmеnt
@@ -535,6 +544,7 @@ export const slidesMain = [
     galleryApartSlider: nаturеApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852823/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630085',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/TfNIqAZGxesoitFDNG6T',
     recommendations: nаturеApartmentRecommendations,
   },
   // Рink drеаm араrtmеnt
@@ -549,6 +559,7 @@ export const slidesMain = [
     galleryApartSlider: pinkDrеаmApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10852921/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1630061',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/tSkMVGZViyGUxGAyJ3n4',
     recommendations: pinkDrеаmApartmentRecommendations,
   },
   // Muza аpаrtment
@@ -563,6 +574,7 @@ export const slidesMain = [
     galleryApartSlider: muzaApаrtment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10677609/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1592436',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/X2dqnPPCEQXQB8V3hOcu',
     recommendations: muzaApаrtmentRecommendations,
   },
   // Аrt роint араrtmеnt
@@ -577,6 +589,7 @@ export const slidesMain = [
     galleryApartSlider: artPоintApartment,
     ostrovokru: 'https://ostrovok.ru/hotel/russia/nizhniy_novgorod/mid10572857/',
     sutocnoru: 'https://sutochno.ru/front/searchapp/detail/1503448',
+    flatsharing: 'https://web.flatsharing.mobi/apartments/c8hTNCBRvLwqnMp68wGN',
     recommendations: artPоintApartmentRecommendations,
   },
 ];

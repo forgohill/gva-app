@@ -28,6 +28,15 @@ const Place = () => {
       placeSutochno={true}
     />
   });
+
+  const renderSlideFlatsharing = slidesMain.map((slide) => {
+    return <SlideMoreApart
+      key={slide.lot}
+      slide={slide}
+      placeFlatsharing={true}
+    />
+  });
+
   return (
     <main className='main'>
       <section
@@ -59,6 +68,21 @@ const Place = () => {
                 className='place__list'
               >
                 {renderSlideSutochno}
+              </ul>
+            </article>
+            : ''
+        }
+        {
+          pathname === '/place/flatsharing'
+            ?
+            <article
+              className='place__content-wrapper'>
+              <h2 className="place__title">Наши&nbsp;квартиры на&nbsp;<span className="place__accent">Flatsharing</span></h2>
+              <p className="place__pharagraph">Цены на площадках могут быть дороже на 10-15%, это зависит от комиссии площадки!</p>
+              <ul
+                className='place__list'
+              >
+                {renderSlideFlatsharing}
               </ul>
             </article>
             : ''

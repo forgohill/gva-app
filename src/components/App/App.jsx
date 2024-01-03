@@ -103,7 +103,12 @@ const App = () => {
           path='/place/place-sutochnoru'
           element={
             <Place
-              pathname={pathname}
+            ></Place>
+          } />
+        <Route
+          path='/place/flatsharing'
+          element={
+            <Place
             ></Place>
           } />
         <Route
