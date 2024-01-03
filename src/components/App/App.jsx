@@ -8,8 +8,6 @@ import {
   Routes,
   Route,
   useLocation,
-  // useNavigate,
-  // Navigate
 } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
@@ -35,7 +33,6 @@ import Filming from '../Filming/Filming.jsx';
 
 import Footer from '../Footer/Footer.jsx';
 
-
 import VideoPresentation from '../VideoPresentation/VideoPresentation.jsx';
 import PageNotFound from '../PageNotFound/PageNotFound.jsx';
 
@@ -43,9 +40,6 @@ const App = () => {
   const { pathname } = useLocation();
 
   const [isPopupCallback, setIsPopupCallback] = useState(false);
-
-
-
 
   const handleOpenPopupCallback = () => {
     setIsPopupCallback(!isPopupCallback);
@@ -75,16 +69,13 @@ const App = () => {
           path='/booking'
           element={<Booking />}
         />
-
-
-
         <Route
           path='/about-us'
           element={<AboutUs />}
         />
         <Route
           path='/gallery'
-          element={<Gallery></Gallery>}
+          element={<Gallery />}
         />
         <Route
           path='/contacts'
@@ -92,61 +83,56 @@ const App = () => {
         />
         <Route
           path='/apartment/*'
-          element={<ApartPage></ApartPage>}
+          element={<ApartPage />}
         />
-
         <Route
           path='/video-presentation'
-          element={<VideoPresentation></VideoPresentation>}
+          element={<VideoPresentation />}
         />
         <Route
           path='/sales'
           element={
-            <Sales></Sales>
+            <Sales />
           } />
         <Route
           path='/place/place-ostrovok'
           element={
-            <Place></Place>
+            <Place />
           } />
         <Route
           path='/place/place-sutochnoru'
           element={
             <Place
               pathname={pathname}
-
             ></Place>
           } />
         <Route
           path='/requisites'
           element={
-            <Requisites></Requisites>
+            <Requisites />
           } />
         <Route
           path='/offer'
           element={
-            <Offer></Offer>
+            <Offer />
           } />
         <Route
           path='/recommendations'
           element={
-            <Recommendations></Recommendations>
+            <Recommendations />
           } />
         <Route
           path='/filming'
           element={
-            <Filming></Filming>
+            <Filming />
           } />
-
         <Route
           path='*'
           element={
-            <PageNotFound></PageNotFound>
+            <PageNotFound />
           } />
       </Routes>
       <Footer />
-
-
 
       <Helmet>
         <title>Good Vibes Апартаменты</title>

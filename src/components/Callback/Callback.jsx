@@ -12,10 +12,10 @@ const Callback = ({ onOpenPopupCallback }) => {
     <section className='callback'>
 
       <div className="callback__wrraper">
-        <h1 className="callback__title">
+        <h2 className="callback__title">
           <span className="callback__accent">Обратный</span>
           <p className='callback__space'></p>
-          звонок</h1>
+          звонок</h2>
         <button
           onClick={handleClickButton}
           className='callback__button'>

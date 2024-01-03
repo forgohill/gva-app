@@ -13,30 +13,96 @@
   transition: 0.3s all;
 }
 
-.header__logo {
+/* ЕЩЕ ОДИН ЛОГО */
+/* ЕЩЕ ОДИН ЛОГО */
+/* ЕЩЕ ОДИН ЛОГО */
+
+.header__logo-textstyle {
   margin: 0;
   padding: 0;
+  max-width: 283px;
+  margin-left: 120px;
+  line-height: 0.8;
+}
 
-  flex-basis: 0;
+.header__logolink-textstyle {
+  text-decoration: none;
+  position: relative;
+}
 
+.header__logo-small {
+  position: absolute;
+  top: 0px;
+  left: -120px;
+  display: block;
+  width: 102px;
+  height: 60px;
+  background-image: url(../../img//header/logo-small.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__logo-text {
+  margin: 0;
+  padding: 0;
   color: #282A30;
-
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 0.9;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.header__logolink {
-  display: flex;
-  color: #282A30;
-  text-decoration: none;
+.headerlogo-text_type_accent {
+  margin: 0;
+  padding: 0;
+  color: var(--solo__color, #F7515C);
 }
+
+.header__logo-text-accent {
+  margin: 0;
+  padding: 0;
+  color: #282A30;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: 11.5px;
+  text-transform: uppercase;
+}
+
+
+/* ЕЩЕ ОДИН ЛОГО */
+/* ЕЩЕ ОДИН ЛОГО */
+/* ЕЩЕ ОДИН ЛОГО */
 
 @media screen and (max-width: 1280px) {
   .header {
     padding: 0 98px;
+  }
+
+  .header__logo-textstyle {
+    line-height: 0.9;
+    max-width: 240px;
+  }
+
+  .header__logo-text {
+    font-size: 32px;
+  }
+
+  .header__logo-text-accent {
+    font-size: 14px;
+    letter-spacing: 11.1px;
+  }
+
+  .header__logo-small {
+    top: 10px;
+    left: -100px;
+
+    width: 78px;
+    height: 45px;
   }
 }
 
@@ -75,13 +141,35 @@
   .header {
     padding: 0 6px;
     margin: 30px 0 45px;
-
   }
+
+
+  .header__logo-textstyle {
+    margin-left: 90px;
+    line-height: 0.5;
+  }
+
+  .header__logo-text {
+    font-size: 20px;
+  }
+
+  .header__logo-text-accent {
+    font-size: 12px;
+    letter-spacing: 4.7px;
+  }
+
+  .header__logo-small {
+    top: 15px;
+    left: -80px;
+
+    width: 60px;
+    height: 35px;
+  }
+
 }
 
 @media screen and (max-width: 320px) {
   .header {
     padding: 0 5px;
-
   }
 }
