@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './SlideMoreApart.css';
 
-const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno, placeFlatsharing }) => {
+const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno, placeFlatsharing, placeMoreApart }) => {
   const [currenGallery, setCurrenGallery] = useState([{
     key: 'none',
     image: 'none',
@@ -77,6 +77,24 @@ const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno, placeFlatsharing 
         >{slide.shortInfo}</p>
       </Link>}
 
+      {placeMoreApart && <Link
+        target='_self'
+        rel='noreferrer'
+        to={`/apartment/${slide.endpoint}`}
+        className='slide-more-apart__link'
+      >
+        <div
+          className='slide-more-apart__image-wrapper'
+        >
+          <img
+            className='slide-more-apart__image'
+            src={firstElementGallery.image} alt="" />
+        </div>
+        <p
+          className='slide-more-apart__subtitle'
+        >{slide.shortInfo}</p>
+      </Link>}
+
       <p
         className='slide-more-apart__paragraph'
       >{slide.price}</p>
@@ -88,18 +106,3 @@ const SlideMoreApart = ({ slide, placeOstrovok, placeSutochno, placeFlatsharing 
 }
 
 export default SlideMoreApart;
-
-
-/**
- <button
-        onClick={() => {
-          console.log(currenGallery);
-        }}
-      >currenGallery
-      </button>
-      <button
-        onClick={() => {
-          console.log(firstElementGallery);
-        }}
-      >firstElementGallery</button>
- */

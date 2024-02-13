@@ -10,6 +10,7 @@ const MoreApartmentDesktop = () => {
     return <SlideMoreApart
       key={slide.lot}
       slide={slide}
+      placeMoreApart={true}
     />
   });
 

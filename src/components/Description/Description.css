@@ -23,6 +23,10 @@
   line-height: 1.22;
 }
 
+.description b {
+  font-weight: 700;
+}
+
 .description__list {
   margin: 35px 0 35px;
   padding: 0;
