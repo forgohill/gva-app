@@ -1,12 +1,13 @@
-import greenApartmentCityViewSlide from '../img/slider-main/green-apartment-city-view.jpg';
-import marshmallowStudioSlide from '../img/slider-main/marshmallow-studio.jpg';
-import linerSlide from '../img/slider-main/liner.jpg';
-import floraApartmentSlide from '../img/slider-main/flora-apartment.jpg';
-import goodVibesOnlyApartmentSlide from '../img/slider-main/good-vibes-only-apartment.jpg';
-import centralStreetApartmentSlide from '../img/slider-main/central-street-apartment.jpg';
-import muzaApаrtmentSlide from '../img/slider-main/muza-аpаrtment.jpg';
-import artAоintApartmentSlide from '../img/slider-main/art-роint-араrtmеnt.jpg';
-import fаmilyApаrtmentOсeаnisSlide from '../img/slider-main/fаmily-аpаrtment-oсeаnis.jpg';
+import greenApartmentCityViewSlide from '../img/slider-main/green-apartment-city-view.webp';
+import marshmallowStudioSlide from '../img/slider-main/marshmallow-studio.webp';
+import linerSlide from '../img/slider-main/liner.webp';
+import floraApartmentSlide from '../img/slider-main/flora-apartment.webp';
+import goodVibesOnlyApartmentSlide from '../img/slider-main/good-vibes-only-apartment.webp';
+import centralStreetApartmentSlide from '../img/slider-main/central-street-apartment.webp';
+import muzaApаrtmentSlide from '../img/slider-main/muza-аpаrtment.webp';
+import artAоintApartmentSlide from '../img/slider-main/art-роint-араrtmеnt.webp';
+import fаmilyApаrtmentOсeаnisSlide from '../img/slider-main/fаmily-аpаrtment-oсeаnis.webp';
+import eleganceApartmentSlide from '../img/slider-main/elegance-apartment.webp';
 
 import { greenApartmentCityView } from "./apartSourceImg/green-apartment-city-view";
 import { marshmallowStudio } from "./apartSourceImg/marshmallow-studio";
@@ -17,6 +18,7 @@ import { centralStreetApartment } from "./apartSourceImg/central-street-apartmen
 import { muzaApаrtment } from "./apartSourceImg/muza-аpаrtment";
 import { artPоintApartment } from "./apartSourceImg/art-роint-араrtmеnt";
 import { fаmilyApаrtmentOсeаnis } from "./apartSourceImg/fаmily-аpаrtment-oсeаnis";
+import { eleganceApartment } from "./apartSourceImg/elegance-apartment";
 
 import { greenApartmentCityViewRecommendations } from "./apartSourceRecommendations/green-apartment-city-view";
 import { marshmallowStudioRecommendations } from "./apartSourceRecommendations/marshmallow-studio";
@@ -264,7 +266,7 @@ export const apartmentsPage = [
     likeAnimals: 'нет',
     likeSmoke: 'нет',
     likeParty: 'нет',
-    accountingDocuments: 'ды',
+    accountingDocuments: 'да',
     adress: 'Нижегородская обл., Нижний Новгород, Краснозвёздная ул., 29',
     shortAdress: 'ул. Краснозвёздная, 29, Нижний Новгород',
     shortInfo: '1-к. квартира, 45 м², 1/10 эт.',
@@ -273,6 +275,35 @@ export const apartmentsPage = [
     homeInfo: '10',
     parking: 'на улице, бесплатно для гостей',
   },
+
+  // Elegance apartment
+  {
+    lot: '178079',
+    pathname: 'elegance-apartment',
+    name: 'Elegance apartment',
+    amountRoom: '1',
+    place: '38 м²',
+    floor: '12 из 17',
+    balcony: 'балкон',
+    technics: 'кондиционер, холодильник, плита, микроволновка, стиральная машина, посудомоечная машина, водонагреватель, телевизор, фен, утюг',
+    communications: 'Wi-Fi, телевидение',
+    comfort: 'постельное белье, полотенца, средства гигиены',
+    deposit: '3000 ₽',
+    amountQuest: '4',
+    likeChildren: 'да',
+    likeAnimals: 'нет',
+    likeSmoke: 'нет',
+    likeParty: 'нет',
+    accountingDocuments: 'да',
+    adress: 'Нижегородская обл., Нижний Новгород, ул. Тимирязева, 7к5',
+    shortAdress: 'ул. Тимирязева, 7к5, Нижний Новгород ',
+    shortInfo: '1-к. квартира, 38 м², 12/17 эт.',
+    coordinatesX: 56.305299,
+    coordinatesY: 43.999878,
+    homeInfo: '17',
+    parking: 'на улице, бесплатно для гостей',
+  },
+
 ];
 
 export const slidesMain = [
@@ -409,6 +440,21 @@ export const slidesMain = [
     ostrovokru: 'https://goodvibesonly.ru/404',
     sutocnoru: 'https://goodvibesonly.ru/404',
     flatsharing: 'https://m.flatsharing.link/shared/nd6RJeLh419gKscG6',
+    recommendations: artPоintApartmentRecommendations,
+  },
+  // Elegance apartment
+  {
+    name: 'Elegance apartment',
+    slide: eleganceApartmentSlide,
+    lot: '178079',
+    endpoint: 'elegance-apartment',
+    price: 'от 3 000 р/сут',
+    shortAdress: 'ул. Тимирязева, 7к5, Нижний Новгород',
+    shortInfo: '1-к. квартира, 38 м², 12/17 эт.',
+    galleryApartSlider: eleganceApartment,
+    ostrovokru: 'https://goodvibesonly.ru/404',
+    sutocnoru: 'https://goodvibesonly.ru/404',
+    flatsharing: 'https://m.flatsharing.link/shared/G9TFpAAGFUkj12we8',
     recommendations: artPоintApartmentRecommendations,
   },
 ];

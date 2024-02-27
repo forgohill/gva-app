@@ -45,7 +45,7 @@ const Footer = () => {
             </li>
             <li className="footer__item">
               <Link
-                to="https://www.avito.ru/user/7abe81bd51747f6d21ad77a2e15dd89a/profile/all/kvartiry?id=2465832266&src=item&page_from=from_item_card&iid=2465832266&sellerId=7abe81bd51747f6d21ad77a2e15dd89a"
+                to="https://www.avito.ru/user/4f6a4080c4d80b88aee9bf0a4add9a6b/profile/all?id=3712719114"
                 target='_blank'
                 rel='noreferrer'
                 className="footer__link">
